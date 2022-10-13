@@ -1,0 +1,22 @@
+﻿  ArcadeGame.cpp
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(42,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(43,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(53,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(82,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1530,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1531,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1541,40): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1575,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1575,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1578,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1578,41): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1579,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1579,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1582,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1582,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1645,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1646,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1654,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\ArcadeGame.cpp(1655,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ArcadeGame.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\Debug\ArcadeGame.exe
+  0 File(s) copied

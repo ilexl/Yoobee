@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\Debug\ArcadeGame.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\GL\freeglut.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\GL\freeglut_ext.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\GL\freeglut_std.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\GL\glut.h</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\freeglut.lib</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\ArcadeGame\ArcadeGame\GL\freeglut.lib</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
