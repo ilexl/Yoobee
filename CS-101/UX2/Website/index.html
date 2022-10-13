@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="./images/logo_ind_2.png">
+
+        <link rel="stylesheet" href="./css/index.css">
+
+        <link rel="stylesheet" href="./css/main.css">
+        <title>The Ramen Shop</title>
+    </head>
+    
+    <body>
+        <!-- Header (Always Shown) -->
+        <nav>
+            
+            <div class="nav_logo" id="top"> <!-- Logo -->
+                <a href=""><img src="./images/logo.png" alt=""></a>
+            </div>
+            
+            <div class="nav_links"> <!-- Middle Links -->
+                <ul class="links">
+                    <a href=""><li>Home</li></a>
+                    <a href="./About.html"><li>About Us</li></a>
+                    <a href="./Contact.html"><li>Contact Us</li></a>
+                    <a href="./Photos.html"><li>Photos</li></a>
+                    <a href="./Menu.html"><li>Menu</li></a>
+                </ul>
+            </div>
+
+            <div class="button"> <!-- Order Button -->
+                <button id="Order_Now_Button_Nav" onclick="OrderNowButton()">
+                    <h3>Order Now</h3>
+                </button>
+            </div>
+            <div class="button2"> <!-- Order Button -->
+                <button id="SigninoutButton" onclick="signOutIn()">
+                    <h3>Sign In</h3>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Content Holder -->
+        <div class="content">
+
+            <!-- PUT CONENT HERE -->
+
+            <div class="index-top">
+                <div class="index-title"><h1>The Ramen Shop</h1></div>
+                <div class="index-images">
+                    <img src="./images/index/1.jpg" alt="food1">
+                    <img src="./images/index/3.jpg" alt="food1">
+                    <img src="./images/index/5.jpg" alt="food1">
+                    <img src="./images/index/2.jpg" alt="food1" class="index-img-up">
+                    <img src="./images/index/4.jpg" alt="food1">
+                    <img src="./images/index/6.jpg" alt="food1" class="index-img-up">
+                </div>
+                <div class="index-button"><button id="Order_Now_Button_Index" onclick="OrderNowButton()">Order Now</button></div>
+
+            </div>
+
+            <div class="index-bottom">
+                <div class="i-b-s"> 
+                    <div class="index-b-img">
+                        <img src="./images/index/7.jpg" alt="food1">
+                    </div>
+                    <div class="index-b-text">
+                        <h2>The Best Ramen Since 2013</h2>
+                        <p>A Ramen Joint with a Kiwi Twist. Bringing the same principles of traditional Japanese Ramen but altered with Kiwi Ingenuity to create our own identity and flavor.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Back-To-Top">
+                <a href="#top"><button class="Back-To-Top-Button">Back to Top</button></a>
+            </div>
+
+            <footer> <!-- Footer is at BOTTOM of content -->
+                
+                <div class="footerCollumnHolder">
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Location.png" alt="">
+                            </div>
+                            <h2>Our Address</h2>
+                            <p>191 Riddiford Street, Newtown, Wellington</p> 
+                        </div>
+                    </a>
+
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Clock.png" alt="">
+                            </div>
+                            <h2>Opening Hours</h2>
+                            <p>Everyday 11:00-2:00 & 5:00-8:00</p>
+                        </div>
+                    </a>
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Phone.png" alt="">
+                            </div>
+                            <h2>Our Phone</h2>
+                            <p>04 3892263</p>
+                        </div>
+                    </a>
+                </div>
+            </footer>
+        </div>
+
+        <script src="orderNow.js"></script>
+    </body>
+</html>

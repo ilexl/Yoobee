@@ -1,0 +1,391 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./fonts/Josefin-Sans.ttf);
+}
+
+.html {
+    background-color: #373737;
+}
+
+.content-holder {
+    background-color: #373737;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.summary-food {
+    background-color: #373737;
+    width: 40vw;
+}
+
+.summary-details {
+    background-color: #DB7698;
+    width: 25vw;
+}
+
+.title-holder {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-bottom: 3px solid white;
+}
+
+.title-holder div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center
+}
+
+.back-button {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    padding-left: 4vh;
+}
+
+.back-button a {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: #DB8776;
+    font-size: 2vh;
+}
+
+.summary-title div {
+    width: 90vw;
+}
+
+#title-expand,
+#title-expand2 {
+    width: 200vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.summary-title h1 {
+    font-family: Montserrat;
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+}
+
+.row-header {
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    color: white;
+    font-size: 1.7vh;
+}
+
+
+/* Current 40 60 split, adjust to correct collumn positon of titles */
+
+.row-header-left-holder {
+    display: flex;
+    width: 40%;
+}
+
+.row-header-right-holder {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-header-left-holder h3 {
+    padding-left: 4vh;
+}
+
+.item {
+    display: flex;
+    height: 12vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 2vh;
+}
+
+.item-holder-L {
+    display: flex;
+    width: 45%;
+    align-items: center;
+}
+
+.item-holder-R {
+    display: flex;
+    width: 55%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item div {
+    height: 100%;
+    overflow: hidden;
+}
+
+.item img {
+    max-height: 100%;
+    padding-left: 4vh;
+}
+
+.item h2 {
+    padding-left: 1vh;
+    font-family: Josefin-Sans;
+    color: white;
+    font-size: 2vh;
+    margin-right: 1vh;
+}
+
+.item-holder-R h2 {
+    padding-right: 2.5vh;
+    font-family: Josefin-Sans;
+    color: white;
+    font-size: 2vh;
+    width: 9vh;
+    text-align: center;
+}
+
+.item input {
+    height: 2vh;
+    width: 5vw;
+    text-align: center;
+    font-family: Josefin-Sans;
+    color: black;
+    font-size: 2vh;
+    width: 9vh;
+    margin-right: 2.5vh;
+}
+
+.details-title {
+    font-family: Montserrat;
+    color: white;
+    font-size: 1.8vh;
+}
+
+.summary-holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.subtotal,
+.delivery,
+.payment {
+    width: 100%;
+    height: 25vh;
+}
+
+.complete-order {
+    width: 100%;
+    height: 10vh;
+}
+
+.subtotal {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Josefin-Sans;
+    color: white;
+}
+
+.subtotal hr {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.subtotal h3 {
+    padding-bottom: 0.5vh;
+    padding-top: 0.5vh;
+    font-size: 2vh;
+}
+
+.subtotal div {
+    height: 70%;
+    width: 45%
+}
+
+.subtotal-R h3 {
+    text-align: right;
+    padding-right: 1vh;
+}
+
+.delivery,
+.payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.delivery h3,
+.payment h3 {
+    text-align: center;
+    font-family: Montserrat;
+    color: white;
+    font-size: 2.5vh;
+}
+
+.delivery input,
+.payment input {
+    padding: 0.5vh;
+    text-align: left;
+    font-family: Montserrat;
+    color: black;
+    font-size: 2vh;
+}
+
+.payment-cardnumber,
+.delivery-address {
+    width: 100%;
+    padding: 1vh;
+    padding-bottom: 0.5vh;
+}
+
+.payment-cardnumber input,
+.delivery-address input {
+    width: 100%;
+}
+
+.payment-expirydatecvv,
+.delivery-suburbpostcode {
+    display: flex;
+    width: 100%;
+    padding: 1vh;
+    padding-bottom: 0.5vh;
+    padding-top: 0;
+}
+
+.delivery-phonenumber,
+.payment-cardholdername {
+    width: 100%;
+    padding: 1vh;
+    padding-bottom: 0.5vh;
+    padding-top: 0;
+}
+
+#deliverySuburbInput {
+    width: 70%;
+}
+
+#deliveryPostcodeInput {
+    width: 30%;
+}
+
+#phoneNumberInput {
+    width: 100%;
+}
+
+#deliverySuburbInput {
+    width: 70%;
+}
+
+#deliveryPostcodeInput {
+    width: 30%;
+    font-size: 70%;
+}
+
+#paymentExpirydateInput {
+    width: 70%;
+}
+
+#paymentCvvInput {
+    width: 30%;
+    font-size: 100%;
+}
+
+#paymentCardholdernameInput {
+    width: 100%;
+}
+
+.complete-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.complete-order button {
+    width: 70%;
+    height: 50%;
+    overflow: hidden;
+    background-color: white;
+    color: #DB8776;
+    border: none;
+    border-radius: 3vh;
+    font-family: Montserrat;
+    font-size: 2vh;
+}
+
+
+/* media query for tablet */
+
+@media only screen and (min-width:601px) and (max-width: 1200px) {
+    /* Changes here */
+    body {
+        background-color: #373737;
+    }
+    .content-holder {
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .summary-food,
+    .summary-details {
+        width: 100%;
+    }
+    .delivery,
+    .payment {
+        padding: 2.5vh;
+    }
+}
+
+
+/* media query for phone*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #373737;
+    }
+    .content-holder {
+        width: 90%;
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .summary-food,
+    .summary-details {
+        width: 100%;
+    }
+    .item-holder-L img {
+        padding-left: 0;
+    }
+}

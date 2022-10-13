@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./fonts/Josefin-Sans.ttf);
+}
+iframe{
+    height:100%;
+    width:100%;
+}
+.contact-holder{
+    width:100%;
+    display: flex;
+    align-content: center;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+
+.contact-text{
+    font-family:Montserrat;
+    color:black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.contact-text h2{
+    font-size:5vh;
+}
+
+#contact-text-md{
+    padding-top: 2vh;
+}
+
+.contact-text h3{
+    font-size:3vh;
+}
+
+.contact-text a{
+    color:black;
+}
+
+.contact-map{
+    padding:3vh;
+    width:50vw;
+    max-width:80vw;
+    height: 50vh;
+}
+.mapouter, .gmap_canvas{
+    width: 100%;
+    height: 100%;
+}
+.contact-text{
+    padding-left: 3vw;
+}
+
+/* media query for tablet */
+@media only screen and (min-width:601px) and (max-width: 992px){
+    /* Changes here */
+    .contact-text{
+        padding-left: 1vw;
+    }
+
+    .contact-text, .contact-map{
+        max-width: unset;
+        width: 90vw;
+    }
+ }
+ 
+ /* media query for phone*/
+ @media only screen and (max-width: 600px){
+    .contact-text, .contact-map{
+        width: 90vw;
+    }
+
+    .contact-map{
+        padding:1vw;
+        width:90vw;
+        height: 50vh;
+        padding-bottom: 3vh;
+    }
+ }

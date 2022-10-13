@@ -1,0 +1,203 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./fonts/Josefin-Sans.ttf);
+}
+
+/* ----- Resets ----- */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* ----- Resets ----- */
+
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.center-holder{
+    height: 80vh;
+    background-color: #373737;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.sign-up, .go-to-login{
+    height: 80vh;
+    min-width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.go-to-login{
+    background-color: #373737;
+}
+
+.sign-up{
+    background-color:#DB8776;
+}
+
+.Or{
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    padding:3vh;
+}
+
+a{
+    color: white;
+    font-family: Josefin-Sans;
+    font-size: 2vw;
+    padding-left: 1vh;
+    text-decoration: underline;
+    word-spacing: -0.2ch;
+}
+
+h2{
+    color: white;
+    font-family: Montserrat;
+    font-size: 2vw;
+    padding-bottom: 3vh;
+}
+
+.Or h2{
+    padding: 0;
+}
+
+button{
+    background-color: white;
+    color: #DB8776;
+    font-family: Montserrat;
+    height: auto;
+    width: 15vw;
+    font-size: 2vw;
+    border: 0.1vh solid black;
+    border-radius: 2.5vh;
+    cursor: pointer;
+    padding: 0.5vw;
+}
+
+input{
+    font-size: 2vw;
+    border: 0.1vh solid black;
+    height: auto;
+    width: 20vw;
+}
+
+form{
+    padding-bottom: 3vh;
+}
+
+.sign-up h2, .sign-in h2{
+    font-size: 5vw;
+}
+
+.sign-in, .go-to-signup{
+    height: 80vh;
+    min-width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.go-to-login{
+    background-color: #373737;
+}
+
+.sign-in{
+    background-color:#db7698;
+}
+
+ /* media query for phone*/
+ @media only screen and (max-width: 560px){
+     .center-holder{
+         flex-direction: column;
+     }
+
+     .sign-up, .go-to-login{
+        height: 40vh;
+        min-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .sign-in, .go-to-signup{
+        height: 40vh;
+        min-width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .sign-up h2, .sign-in h2{
+        font-size: 10vw;
+    }
+
+    input{
+        font-size: 4vw;
+        height: auto;
+        width: 40vw;
+    }
+
+    button{
+        height: auto;
+        width: 30vw;
+        font-size: 6vw;
+    }
+    
+    a{
+        font-family: Josefin-Sans;
+        font-size: 5vw;
+    }
+    
+    h2{
+        font-family: Montserrat;
+        font-size: 5vw;
+    }
+ }

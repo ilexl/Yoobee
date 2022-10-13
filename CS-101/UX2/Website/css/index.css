@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./fonts/Josefin-Sans.ttf);
+}
+    
+
+
+.index-top{
+    display:flex;
+    flex-direction:column;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    align-items:center;
+    justify-content: flex-start;
+    padding-bottom: 5vh;
+}
+
+.index-title{
+    padding-top: 3vh;
+    padding-bottom:3vh;
+    font-family: Montserrat;
+    font-size:3vh;
+    color: #090037;
+}
+
+.index-images{
+    display:grid;
+    grid-template-columns: 15vw 15vw 15vw;
+    width:50vw;
+    grid-gap: 2.5vw;
+    /* background-color: aqua; */
+}
+
+.index-images img{
+    width: 100%;
+    border-radius:3vw;
+}
+
+.index-img-up{
+    transform: translate(0, -34%);
+}
+
+.index-button{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:4vh;
+}
+
+#Order_Now_Button_Index{
+    width:20vw;
+    height:100%;
+    border-radius: 6vw;
+    border:none;
+    background-color:#db7698;
+    color:white;
+    font-family: Montserrat;
+    font-size:3vh;
+    cursor: pointer;
+}
+
+
+.index-bottom{
+    background-color:#db7698;
+    width:100%;
+    height: auto;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.i-b-s{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    overflow: hidden;
+    width:60%;
+    flex-wrap: wrap;
+}
+
+.index-bottom img{
+    height: 50vh;
+    padding-top: 5vh ;
+    padding-bottom: 5vh;
+    padding-right: 2vh;
+}
+
+.index-bottom p, .index-bottom h2{
+    color:whitesmoke;
+}
+
+.index-b-text{
+    max-width: 30vw;
+}
+
+.index-bottom p{
+    font-family: Josefin-Sans;
+    padding-bottom: 5vh;
+    font-size:2vh;
+}
+
+.index-bottom h2{
+    font-family: Montserrat;
+    font-size:4vh;
+    padding-top: 5vh;
+}
+
+/* media query for tablet */
+@media only screen and (min-width:601px) and (max-width: 1300px){
+   /* Changes here */
+
+       #Order_Now_Button_Index{
+        width: 60%;
+    }
+
+    .i-b-s{
+        width:100%;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-top: 6vw;
+    }
+
+    .index-b-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .index-b-img img{
+        max-height: 100%;
+        
+        padding:0;
+    }
+
+    .index-b-text{
+        width:100vw;
+        max-width:100%;
+        padding-top: 1vh;
+    }
+    
+    .index-b-text h2{
+        width: 100%;
+        text-align: center;
+        padding:0;
+    }
+    
+    .index-b-text p{
+        width: 100%;
+        text-align: center;
+        padding-bottom:6vw;
+    }
+}
+
+/* media query for phone*/
+@media only screen and (max-width: 600px){
+    .index-top .index-title{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+    .index-top .index-images{
+        width: 81vw;   
+        grid-template-columns: 25vw 25vw 25vw;
+        grid-gap: 3vw;
+    }
+
+    .index-top .index-button{
+        height: 6vh;
+    }
+
+    #Order_Now_Button_Index{
+        width: 60%;
+    }
+
+    .i-b-s{
+        width:100%;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        padding-top: 6vw;
+    }
+
+    .index-b-img{
+        width: 100%;
+    }
+
+    .index-b-img img{
+        width: 100%;
+        padding:0;
+    }
+
+    .index-b-text{
+        width:100vw;
+        max-width:100%;
+    }
+    
+    .index-b-text h2{
+        width: 100%;
+        text-align: center;
+        padding:0;
+    }
+    
+    .index-b-text p{
+        width: 100%;
+        text-align: center;
+        padding-bottom:6vw;
+    }
+}

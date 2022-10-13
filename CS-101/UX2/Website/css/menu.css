@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+font-family: Montserrat-Medium;
+src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+@font-face {
+    font-family: Josefin-Sans;
+    src: url(./fonts/Josefin-Sans.ttf);
+}
+
+.menu-holder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.menu-row-items{
+    width: 60vw;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.menu-row-item{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height:100%;
+}
+
+
+.menu-row-item img{
+    height: 80%;
+}
+.menu-row-item p{
+    padding-top: 1vh;
+    padding-bottom: 3vh;
+    font-family: Josefin-Sans;
+    font-size: 2vh;
+}
+
+.menu-row-title{
+    padding-bottom: 1vh;
+}
+
+.menu-row-title h2{
+    font-family: Montserrat;
+    font-size: 4vh;
+}
+
+/* media query for tablet */
+@media only screen and (min-width:601px) and (max-width: 992px){
+    /* Changes here */
+ }
+ 
+ /* media query for phone*/
+ @media only screen and (max-width: 600px){
+     
+ }

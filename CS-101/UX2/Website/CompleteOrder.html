@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="./images/logo_ind_2.png">
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/confirmorder.css">
+
+        <title>The Ramen Shop</title>
+    </head>
+    
+    <body>
+        <div class="content-holder">
+            <div class="summary-food">
+                <div class="title-holder">
+                    <div class="back-button"><a href="./Ordering.html">Back</a></div>
+                    <div class="summary-title" id="title-expand">
+                        <h1>Order Confirmation</h1>
+                    </div>
+                    <div class="back-button"></div> <!-- As a spacer (: -->
+                </div>
+                <div class="row-header">
+                    <div class="row-header-left-holder">
+                        <h3>Item</h3>
+                    </div>
+                    <div class="row-header-right-holder">
+                        <h3>Amount</h3>
+                        <h3>Price</h3>
+                        <h3>Total</h3>
+                    </div>
+                </div>
+                <div class="row-holder-js" id="ItemHolderConfirm"> 
+                    <!-- Inserted by JS -->
+
+                </div>
+            </div>
+
+
+            <div class="summary-details">
+                <div class="title-holder">
+                    <div class="details-title" id="title-expand2">
+                        <h1>Order Details</h1>
+                    </div>
+                    
+                </div>
+
+                <div class="summary-holder">
+                    <div class="subtotal">
+                        <div class="subtotal-L">
+                            <h3>Subtotal:</h3>
+                            <h3>Delivery:</h3>
+                            <h3>Tax:</h3>
+                            <hr>
+                            <h3>Total: </h3>
+                        </div>
+                        <div class="subtotal-R">
+                            <h3 id="SubtotalH3">X</h3>
+                            <h3 id="DeliveryH3">X</h3>
+                            <h3 id="TaxH3">X</h3>
+                            <hr>
+                            <h3 id="TotalH3">X</h3>
+                        </div>
+                    </div>
+                    <div class="delivery">
+                        <div class="delivery-title"><h3>Delivery Address</h3></div>
+                        <div class="delivery-address"><input placeholder="Address" type="text" id="deliveryAddressInput" onchange="AddressChanged()" ></div>
+                        <div class="delivery-suburbpostcode"><input placeholder="Suburb" type="text" id="deliverySuburbInput" onchange="AddressChanged()"><input type="text" id="deliveryPostcodeInput" placeholder="Post Code" onchange="AddressChanged()"></div>
+                        <div class="delivery-phonenumber"><input placeholder="Phone Number" type="text" id="phoneNumberInput" onchange="AddressChanged()"></div>
+                    </div>
+                    <div class="payment">
+                        <div class="payment-title"><h3>Payment</h3></div>
+                        <div class="payment-cardnumber"><input type="text" placeholder="Card Number" id="paymentCardnumberInput"></div>
+                        <div class="payment-expirydatecvv"><input type="text" id="paymentExpirydateInput" placeholder="Expiry Date"><input type="text" placeholder="CVV" id="paymentCvvInput"></div>
+                        <div class="payment-cardholdername"><input type="text" id="paymentCardholdernameInput" placeholder="Card Holder's Name"></div>
+                    </div>
+                    <div class="complete-order">
+                        <button onclick="EndOrder()">Complete Order</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="ordering.js"></script>
+    </body>
+
+
+</html>

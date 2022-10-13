@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="./images/logo_ind_2.png">
+
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/ordering.css">
+
+        <title>The Ramen Shop</title>
+    </head>
+    
+    <body>
+        <!-- Header (Always Shown) -->
+        <nav>
+            
+            <div class="nav_logo" id="top"> <!-- Logo -->
+                <a href="./index.html"><img src="./images/logo.png" alt=""></a>
+            </div>
+            
+            <div class="nav_links"> <!-- Middle Links -->
+                <ul class="links">
+                    <a href="./index.html"><li>Home</li></a>
+                    <a href="./About.html"><li>About Us</li></a>
+                    <a href="./Contact.html"><li>Contact Us</li></a>
+                    <a href="./Photos.html"><li>Photos</li></a>
+                    <a href="./Menu.html"><li>Menu</li></a>
+                </ul>
+            </div>
+
+            <div class="button"> <!-- Order Button -->
+                <button id="Complete_Order_Button_Nav" onclick="completeOrder()">
+                    <h3>Complete Order</h3>
+                </button>
+            </div>
+
+            <div class="button2"> <!-- Order Button -->
+                <button id="SigninoutButton" onclick="signOutIn()">
+                    <h3>Sign In</h3>
+                </button>
+            </div>
+
+        </nav>
+
+        <!-- Content Holder -->
+        <div class="content">
+
+            <!-- PUT CONENT HERE -->
+            <div class="banner">
+                <h1>Order</h1>
+            </div>
+
+
+            <div class="ordering-content">
+                <div class="row-holder">
+                    <h2>Appitisers</h2>
+                    <div class="row">
+                        <div class="item">
+                            <img src="./images/menu/1.png" alt="item-food">
+                            <h3>Edamame</h3>
+                            <h4>$5.00</h4>
+                            <button onclick="addItemToCart(0)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/2.png" alt="item-food">
+                            <h3>Seaweed Salad</h3>
+                            <h4>$6.00</h4>
+                            <button onclick="addItemToCart(1)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/3.png" alt="item-food">
+                            <h3>Kimichi</h3>
+                            <h4>$5.50</h4>
+                            <button onclick="addItemToCart(2)">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-holder">
+                    <h2>Ramen</h2>
+                    <div class="row">
+                        <div class="item">
+                            <img src="./images/menu/4.png" alt="item-food">
+                            <h3>Tonkotsu Ramen</h3>
+                            <h4>$12.00</h4>
+                            <button onclick="addItemToCart(3)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/5.png" alt="item-food">
+                            <h3>Tori Ramen</h3>
+                            <h4>$12.50</h4>
+                            <button onclick="addItemToCart(4)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/6.png" alt="item-food">
+                            <h3>Spicy Miso Ramen</h3>
+                            <h4>$12.50</h4>
+                            <button onclick="addItemToCart(5)">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-holder">
+                    <h2>Rice Bowls</h2>
+                    <div class="row">
+                        <div class="item">
+                            <img src="./images/menu/7.png" alt="item-food">
+                            <h3>Pork Rice Bowl</h3>
+                            <h4>$10.00</h4>
+                            <button onclick="addItemToCart(6)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/8.png" alt="item-food">
+                            <h3>Kaarage Rice Bowl</h3>
+                            <h4>$10.50</h4>
+                            <button onclick="addItemToCart(7)">Add</button>
+                        </div>
+                        <div class="item">
+                            <img src="./images/menu/9.png" alt="item-food">
+                            <h3>Tofu Rice Bowl</h3>
+                            <h4>$11.00</h4>
+                            <button onclick="addItemToCart(8)">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-3"> <!-- Order Button -->
+                    <button id="Complete_Order_Button_Ordering" onclick="completeOrder()">
+                        Complete Order
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="Back-To-Top">
+                <a href="#top"><button class="Back-To-Top-Button">Back to Top</button></a>
+            </div>
+
+            <footer> <!-- Footer is at BOTTOM of content -->
+                
+                <div class="footerCollumnHolder">
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Location.png" alt="">
+                            </div>
+                            <h2>Our Address</h2>
+                            <p>191 Riddiford Street, Newtown, Wellington</p> 
+                        </div>
+                    </a>
+
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Clock.png" alt="">
+                            </div>
+                            <h2>Opening Hours</h2>
+                            <p>Everyday 11:00-2:00 & 5:00-8:00</p>
+                        </div>
+                    </a>
+                    <a href="./Contact.html">
+                        <div class="footerCollumn">
+                            <div class="circle-around">
+                                <img src="./images/Phone.png" alt="">
+                            </div>
+                            <h2>Our Phone</h2>
+                            <p>04 3892263</p>
+                        </div>
+                    </a>
+                </div>
+            </footer>
+        </div>
+        <script src="ordering.js"></script>
+        <script src="orderNow.js"></script>
+    </body>
+
+</html>

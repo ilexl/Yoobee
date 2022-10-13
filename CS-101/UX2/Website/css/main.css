@@ -1,0 +1,488 @@
+/* ----- Resets ----- */
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat\ Bold\ 700.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(./fonts/Montserrat\ Medium\ 500.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    letter-spacing: 0.1ch;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* ----- Resets ----- */
+
+
+/* ----- Header ----- */
+
+nav {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    letter-spacing: 0;
+}
+
+nav div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.nav_logo {
+    justify-content: flex-end;
+}
+
+nav img {
+    height: 100%;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.nav_links {
+    align-items: center;
+    justify-content: space-around;
+    font-family: Montserrat;
+    width: 50%;
+}
+
+.links {
+    list-style: none;
+    max-width: fit-content;
+    display: flex;
+}
+
+.links li {
+    width: auto;
+    text-align: center;
+    font-size: 2.2vh;
+    padding-left: 1.5vw;
+    padding-left: 1.5vw;
+    color: black;
+    letter-spacing: 0.05ch;
+}
+
+nav .button {
+    padding: 2.5vh;
+    width: 15vw;
+    letter-spacing: 0;
+}
+
+nav .button2 {
+    padding: 2.5vh;
+    width: 15vw;
+    letter-spacing: 0;
+}
+
+nav #Order_Now_Button_Nav {
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    height: 100%;
+    width: 100%;
+    background-color: #db8776;
+    /* Button colour*/
+    border: none;
+    color: white;
+    /* Text colour */
+    width: 10vw;
+    border-radius: 3vh;
+    cursor: pointer;
+    letter-spacing: 0;
+}
+
+nav #Complete_Order_Button_Nav {
+    font-size: 1.6vh;
+    font-family: Montserrat;
+    height: 100%;
+    width: 100%;
+    background-color: #db8776;
+    /* Button colour*/
+    border: none;
+    color: white;
+    /* Text colour */
+    width: 10vw;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+
+#Complete_Order_Button_Nav h3 {
+    letter-spacing: 0.05ch;
+}
+
+nav #SigninoutButton {
+    font-size: 1.2vw;
+    font-family: Montserrat;
+    height: 100%;
+    width: 100%;
+    background-color: #db8776;
+    /* Button colour*/
+    border: none;
+    color: white;
+    /* Text colour */
+    width: 10vw;
+    border-radius: 3vh;
+    cursor: pointer;
+}
+
+
+/* ----- Header ----- */
+
+
+/* ----- Footer ----- */
+
+footer {
+    width: 100%;
+    background-color: white;
+    height: 20vh;
+    /* justify-self: flex-end; */
+}
+
+.footerCollumnHolder {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerCollumn {
+    text-align: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 25vw;
+}
+
+.circle-around {
+    background-color: #db7698;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8vh;
+    height: 8vh;
+}
+
+footer img {
+    height: 60%;
+}
+
+footer h2 {
+    padding-top: 1vh;
+    color: #090037;
+    font-family: Montserrat;
+    font-size: 17px;
+}
+
+footer p {
+    color: #090037;
+    font-family: Montserrat-Medium;
+    font-size: 12px;
+}
+
+
+/* ----- Footer ----- */
+
+
+/* ----- Content ----- */
+
+body {
+    background-color: #FFFFFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.Back-To-Top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+    padding-top: 6vh;
+    padding-bottom: 2.5vh;
+}
+
+.Back-To-Top-Button {
+    font-size: 2.5vh;
+    font-family: Montserrat;
+    background-color: #db7698;
+    /* Button colour*/
+    border: none;
+    color: white;
+    /* Text colour */
+    border-radius: 3vh;
+    cursor: pointer;
+    width: 15vw;
+    height: 4vh;
+}
+
+.banner {
+    background-color: #db7698;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+}
+
+.banner h1 {
+    color: white;
+    font-family: Montserrat;
+    font-size: 5vh;
+}
+
+
+/* ----- Content ----- */
+
+
+/* media query for tablet */
+
+@media only screen and (min-width:601px) and (max-width: 1023px) {
+    /* Changes here */
+    nav {
+        display: grid;
+        grid-template-columns: [col] 20vw [col] 20vw [col] 20vw [col] 20vw;
+        grid-template-rows: [row] 20vh [row] 10vh [row] 10vh;
+        height: 43vh;
+    }
+    .nav_logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: row;
+        grid-column: col 2 / span 2;
+    }
+    nav a img {
+        max-width: 100%;
+        max-height: 95%;
+        height: auto;
+    }
+    nav a {
+        width: auto;
+        height: 100%;
+        padding: 2vw;
+    }
+    .links ul,
+    .links {
+        flex-direction: row;
+        width: 100vw;
+        column-span: all;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+    .links a {
+        min-width: 15vw;
+    }
+    .nav_links {
+        width: 100%;
+        height: 100%;
+        padding-left: 1vh;
+        margin-bottom: 2vh;
+        display: flex;
+        grid-row: row 2;
+        grid-column: col 1 / span 4;
+        overflow: visible;
+    }
+    nav .button,
+    nav .button2 {
+        width: 100%;
+        padding: 1vh;
+        grid-column: col / span 2;
+        grid-row: 3;
+    }
+    nav .button2 {
+        grid-column: col 3 / span 2;
+    }
+    nav #SigninoutButton,
+    nav #Order_Now_Button_Nav {
+        font-size: 2.5vw;
+        width: 100%;
+        padding: 0;
+    }
+    nav #Complete_Order_Button_Nav {
+        font-size: 3.2vh;
+        width: 100%;
+        padding: 0;
+    }
+    .Back-To-Top {
+        width: 100%;
+        height: 10vh;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+    }
+    .Back-To-Top-Button {
+        width: 30vw;
+        height: 5vh;
+    }
+    footer {
+        height: 25vh;
+    }
+    .footerCollumnHolder {
+        align-content: flex-start;
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .footerCollumnHolder a {
+        height: 100%;
+    }
+    .footerCollumn {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start
+    }
+    .content {
+        overflow: hidden;
+    }
+    nav .nav_links a li {
+        font-size: 2.5vw;
+    }
+}
+
+
+/* media query for phone*/
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: grid;
+        grid-template-columns: [col] 40vw [col] 40vw;
+        grid-template-rows: [row] 20vh [row] 20vh [row] 6vh [row] 6vh;
+        height: 55vh;
+    }
+    .nav_logo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: row;
+        grid-column: col / span 2;
+    }
+    nav a img {
+        max-width: 100%;
+        max-height: 95%;
+        height: auto;
+    }
+    nav a {
+        width: auto;
+        height: 100%;
+        padding: 2vh;
+    }
+    .links {
+        flex-direction: column;
+        min-width: 100%;
+        column-span: all;
+    }
+    .nav_links {
+        width: 100%;
+        height: 100%;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        margin-bottom: 2vh;
+        display: unset;
+        grid-row: row 2;
+        grid-column: col / span 2;
+        overflow: visible;
+    }
+    .links li,
+    .links a {
+        text-align: center;
+        min-width: 100%;
+        font-size: 2.5vh;
+        padding: 0;
+        margin: 0;
+    }
+    .links li {
+        padding-top: 1vh;
+    }
+    nav .button,
+    nav .button2 {
+        width: 100%;
+        padding: 1vh;
+        grid-column: col / span 2;
+    }
+    nav #SigninoutButton,
+    nav #Order_Now_Button_Nav {
+        font-size: 2.2vh;
+        width: 100%;
+        padding: 0;
+    }
+    nav #Complete_Order_Button_Nav {
+        font-size: 2.2vh;
+        width: 100%;
+        padding: 0;
+    }
+    .Back-To-Top {
+        width: 100%;
+        height: 10vh;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+    }
+    .Back-To-Top-Button {
+        width: 30vh;
+        height: 5vh;
+    }
+    footer {
+        height: 25vh;
+    }
+    .footerCollumnHolder {
+        align-content: flex-start;
+        justify-content: space-evenly;
+        height: 25vh;
+    }
+    .footerCollumnHolder a {
+        height: 100%;
+    }
+    .footerCollumn {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start
+    }
+    .content {
+        overflow: hidden;
+    }
+}
+
+
+/* Test button css */
+
+button {
+    padding: .5vh;
+    min-height: 5vh;
+}
