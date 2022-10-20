@@ -1,0 +1,3 @@
+﻿  Task2.cpp
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task2\Task2\Task2.cpp(41,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Task2.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task2\Debug\Task2.exe
