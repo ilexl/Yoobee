@@ -1,0 +1,9 @@
+﻿  Circle.cpp
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 3\Scenario 3\Circle.cpp(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 3\Scenario 3\Circle.cpp(82,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Rectangle.cpp
+  Shape.cpp
+  Square.cpp
+  Triangle.cpp
+  Generating Code...
+  Scenario 3.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 3\Debug\Scenario 3.exe

@@ -1,0 +1,1 @@
+C:\Users\270168960\OneDrive - UP Education\Code\C++\S2 Tasks\Pong_SFML\x64\Debug\arial.ttf

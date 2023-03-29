@@ -1,0 +1,9 @@
+﻿Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __thiscall sf::Window::Window(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0Window@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall sf::Window::~Window(void)" (__imp_??1Window@sf@@UAE@XZ) referenced in function _main
+C:\Users\97300\source\repos\PongDemo\\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\97300\source\repos\PongDemo\\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\97300\source\repos\PongDemo\\lib\sfml-system.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\97300\source\repos\PongDemo\Debug\PongDemo.exe : fatal error LNK1120: 5 unresolved externals

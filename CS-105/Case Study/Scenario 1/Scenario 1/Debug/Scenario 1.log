@@ -1,0 +1,7 @@
+﻿  Location.cpp
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 1\Scenario 1\Location.cpp(52,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 1\Scenario 1\Location.cpp(54,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Scenario 1.cpp
+  Yacht.cpp
+  Generating Code...
+  Scenario 1.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Assignments\CS-105\Case Study\Scenario 1\Debug\Scenario 1.exe
