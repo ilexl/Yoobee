@@ -1,5 +1,0 @@
-﻿  GuessRandomPlusName.cpp
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\GuessRandomPlusName\GuessRandomPlusName\GuessRandomPlusName.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\GuessRandomPlusName\GuessRandomPlusName\GuessRandomPlusName.cpp(50,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\GuessRandomPlusName\GuessRandomPlusName\GuessRandomPlusName.cpp(68,27): warning C4018: '<': signed/unsigned mismatch
-  GuessRandomPlusName.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\GuessRandomPlusName\Debug\GuessRandomPlusName.exe

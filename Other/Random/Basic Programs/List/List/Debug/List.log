@@ -1,3 +1,0 @@
-﻿  List.cpp
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\List\List\List.cpp(6,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  List.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\List\Debug\List.exe

@@ -1,7 +1,0 @@
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\bin\Debug\PGCS.exe.config
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\bin\Debug\PGCS.exe
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\bin\Debug\PGCS.pdb
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\obj\Debug\PGCS.csproj.AssemblyReference.cache
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\obj\Debug\PGCS.csproj.CoreCompileInputs.cache
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\obj\Debug\PGCS.exe
-C:\Users\270168960\OneDrive - UP Education\Code\C++\_Practice\PG\PGCS\PGCS\obj\Debug\PGCS.pdb

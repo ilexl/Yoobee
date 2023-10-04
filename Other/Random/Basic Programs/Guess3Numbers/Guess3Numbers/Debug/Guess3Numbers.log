@@ -1,3 +1,0 @@
-﻿  Guess3Numbers.cpp
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\Guess3Numbers\Guess3Numbers\Guess3Numbers.cpp(47,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Guess3Numbers.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\Guess3Numbers\Debug\Guess3Numbers.exe

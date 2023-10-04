@@ -1,4 +1,0 @@
-﻿  Shapes.cpp
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\Shapes\Shapes\Shapes.cpp(121,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\Shapes\Shapes\Shapes.cpp(123,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  Shapes.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Code\C++\Basic Programs\Shapes\Debug\Shapes.exe
