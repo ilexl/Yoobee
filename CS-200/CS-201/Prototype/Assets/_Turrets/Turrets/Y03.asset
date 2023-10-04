@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bd778ac1100c94c8e3b4327e471b24, type: 3}
+  m_Name: Y03
+  m_EditorClassIdentifier: 
+  modelPrefab: {fileID: 1037223597345568, guid: dce12274b7be4b14e8acc009204c2dbe, type: 3}
+  projectilePrefab: {fileID: 1162392375372998, guid: 9cc9b67118a3b7449b9308ad9dee2167, type: 3}
+  damage: 5
+  icon: {fileID: 21300000, guid: 48d2f7a8183bdbf4a9e1cea292a3a56e, type: 3}
+  range: 2
+  reloadTime: 2.5
+  projectileSpeed: 10
+  cost: 400
+  title: Close Catapult  L3

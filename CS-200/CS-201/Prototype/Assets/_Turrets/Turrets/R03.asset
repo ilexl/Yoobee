@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17bd778ac1100c94c8e3b4327e471b24, type: 3}
+  m_Name: R03
+  m_EditorClassIdentifier: 
+  modelPrefab: {fileID: 1352283983456330, guid: 46332abc604762e47aff5f9e4c29682d, type: 3}
+  projectilePrefab: {fileID: 1162392375372998, guid: 9cc9b67118a3b7449b9308ad9dee2167, type: 3}
+  damage: 3
+  icon: {fileID: 21300000, guid: e08c3b3f51a4c77429111e0b45de7047, type: 3}
+  range: 5
+  reloadTime: 2.5
+  projectileSpeed: 10
+  cost: 400
+  title: Ranged Catapult L3

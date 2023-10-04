@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 15f672a7dba98d64ab928157d3bd05af
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - startPoint: {instanceID: 0}
+  - endPoint: {instanceID: 0}
+  - middlePointsHolder: {instanceID: 0}
+  - prefabStartPoint: {fileID: 1475523176101848922, guid: afadbde736b536140a8e300f1e11d662, type: 3}
+  - prefabEndPoint: {fileID: 8598813325742011664, guid: 96b83406f8adc7b4da0b58198a7e6afe, type: 3}
+  - prefabMiddlePoint: {fileID: 7220471289634571298, guid: c145727bd2705304ea976c029231512b, type: 3}
+  - prefabMiddlePointHolder: {fileID: 4540249016169852400, guid: dc7654c2878cd6447b3c14b956b3567d, type: 3}
+  - prefabTravelPoint: {fileID: 2794657057432941460, guid: c6ae6291b07fef8459a864798f756320, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
