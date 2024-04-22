@@ -1,6 +1,6 @@
 ﻿  Task6.cpp
-C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(85,22): warning C4018: '<': signed/unsigned mismatch
-C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(295,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(303): warning C4715: 'getInt': not all control paths return a value
-C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(287): warning C4715: 'getDouble': not all control paths return a value
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(91,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(313,10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(321): warning C4715: 'getInt': not all control paths return a value
+C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Task6\Task6.cpp(305): warning C4715: 'getDouble': not all control paths return a value
   Task6.vcxproj -> C:\Users\270168960\OneDrive - UP Education\Assignments\CS-103\Task6\Debug\Task6.exe

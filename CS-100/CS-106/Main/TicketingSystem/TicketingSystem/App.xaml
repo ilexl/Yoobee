@@ -1,0 +1,12 @@
+﻿<Application x:Class="TicketingSystem.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TicketingSystem"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <FontFamily x:Key="Epilogue">Epilogue</FontFamily>
+        <FontFamily x:Key="Inter">/TicketingSystem;component/Resources/#Inter Thin</FontFamily>
+
+    </Application.Resources>
+</Application>
