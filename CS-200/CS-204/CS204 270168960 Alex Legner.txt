@@ -1,0 +1,181 @@
+
+
+
+
+
+
+2307-BSE
+
+Art Pipeline for Games
+
+CS204
+Alexander Legner
+
+
+Document Outline
+Table of Contents
+Document Outline	2
+Table of Contents	2
+Table of Figures	2
+Table of Tables	2
+Research	4
+What is a Walk Cycle?	4
+Animation Speed	4
+Importance of a Walk Cycle	4
+Standard Walk Cycle	4
+Unique Characteristics	5
+Gender	5
+Physical health	7
+Emotions	8
+Report	10
+Characteristics and Animation	10
+References	12
+
+Table of Figures
+Figure 1: Walk Cycle Reference	5
+Figure 2: Leg Weights GIF  (Click to view externally)	8
+Figure 3: Animation Model	11
+Figure 5: Maya Frame Count	11
+Figure 4: Maya Hands Example	11
+Figure 6: Maya Arm Movement	11
+Figure 7: Walk Cycle Reference 1	12
+Figure 8: Walk Cycle Reference 2	12
+
+Table of Tables
+Table 1: Female Fit Walk Reference	5
+Table 2: Male Fit Walk Reference	5
+Table 3: Female Large Walk Reference	6
+Table 4: Male Large Walk Reference	6
+Table 5: Male Fit Walk Reference	7
+Table 6: Male Large Walk Reference	7
+Table 7: Normal Walk Reference	8
+Table 8: Angry Walk Reference	8
+Table 9: Confident Walk Reference	8
+Table 10: Tired Walk Reference	9
+Table 11: Scared Walk Reference	9
+Table 12: Maya Final Animation	11
+
+
+
+
+
+
+
+
+
+Intentionally Blank
+
+
+Research
+What is a Walk Cycle?
+A walk cycle is an animation of a character performing the simple task of walking. This animation is repeatable meaning the first and last frame will be the same and allow it to cycle over and over to make the character look as if it is walking continuously. 
+
+Figure 1: Walk Cycle Reference
+Animation Speed
+Animation and speed are measured by how many frames you see over time. Animation is typically done at 24 frames per second (fps) meaning every second you will see 24 individual frames and has been the standard for animation since around 1927 according to a blog post from adobe.
+With establishing a frame rate that is standard to use in animation it’s time to look at what is a walk cycle. 
+Importance of a Walk Cycle
+Looking into the importance of a walk cycle, I found that it is a crucial step in animation for a character as it is a building block for determining a character’s traits for any other future animations you decide to make for the character. According to Cineversity - When working with a new character, most animators begin by creating a walk cycle. This is because a walk cycle can be used to determine a character's personality as well as physical cues or "tells." A person's gait can reveal a lot about his attitude or emotional state. Usually, walk cycles are created with the character "in-place," meaning that while the character's body moves, the character itself stays still (usually at the origin). 
+Standard Walk Cycle
+The timing of a walk cycle is dependent on many frames you to animate your walk cycle. According to an article from Monmouth University: Using a 24 frames per second frame rate (fps), the following walk cycles are possible: 
+- 16 frames for a slow run or "cartoon" walk.
+- 24 frames for a brisk, business-like walk - a "natural walk".
+- 32 frames for a more leisurely stroll.
+From this I concurred we could use either 24 frames or 32 frames for a standard walk cycle for a character depending on how we want the character to look/feel.
+Unique Characteristics
+Each character can have different traits/characteristic for how they walk. This is simply because everyone is different. There are multiple different things that can influence the way a person can walk including but not limited to:
+- Gender
+- Emotions
+- Physical health
+Gender
+First, we are going to look at a fit male and fit female walk and compare them.
+Table 1: Female Fit Walk Reference
+
+Table 2: Male Fit Walk Reference
+
+Looking at the difference between these two walking references, you can see some clear differences in some body movements. The most noticeable that I saw was the arm movement between the male and female reference videos. The male’s arms moved more that the female’s arms and was much more exaggerated. The female has their palms towards her rear whereas the male has towards his body. The female’s body is mostly upright the entire time whereas the male’s body is slightly hunched forwards in comparison. These are just a few of the big differences you can see from these references between a male and female walking.
+We also have a large female and large male walk we can compare to see if these differences are consistent with gender.
+Table 3: Female Large Walk Reference
+
+Table 4: Male Large Walk Reference
+
+We can see the female’s body in this comparison is also upright most of the walk which compared the male, the male is seen leaning forward slightly in most of the frames of the reference video. We can also see the female’s palms are facing the rear throughout which is consistent with our observations from the other female. The male’s palms in this video are facing mostly to the rear but slightly rotates towards the body as the male walks.
+
+
+
+
+
+Physical health
+Table 5: Male Fit Walk Reference
+
+Table 6: Male Large Walk Reference
+
+The difference between the builds of these two males is the first is of a fit build and the second is of a large build. The first difference I noticed was the pace of the steps. The fit male had a consistent pace moving his legs whereas the large male’s legs were speeding up and slowing down between steps. This is due to the different walk cycle weights using legs. This is explained in more detail by Edward in his blog post on walk cycle research but from his research he found that different builds of characters had different leg movement he described as ‘leg weights’ which change depend on the characteristic of the character. 
+
+
+
+
+
+
+
+
+
+Emotions
+Emotions play a big role in a character’s walk and changes their characteristics. 
+Table 7: Normal Walk Reference
+This is a normal walk cycle for reference.
+Table 8: Angry Walk Reference
+We can see the actor is angry in this reference video while walking but there are some key changes in the body language of the character to note while walking with this emotion including: Closed and clenched fists, minimal arm movement due to being tensed up in the arms/shoulders and also fast and strong leg movement.
+Table 9: Confident Walk Reference
+We can see the actor is confident in this reference video while walking but there are some key changes in the body language of the character to note while walking with this emotion including: exaggeration in the arm movement, shoulder sway is more exaggerated which brings his entire torso with it. The arm and leg movement is exaggerated but it is not sloppy giving this character a confident look or as I would put it “he has no care in the world right now”.
+
+Table 10: Tired Walk Reference
+We can see the actor is tired in this reference video while walking but there are some key changes in the body language of the character to note while walking with this emotion including: arms staying in front of the body no matter what the feet are doing, legs are going around and barely bending (like a peg leg would), the body motion is slow and unenthusiastic.
+
+Table 11: Scared Walk Reference
+We can see the actor is scared in this reference video while walking but there are some key changes in the body language of the character to note while walking with this emotion including: The arms are by their chest not swinging, the steps being taken are much smaller than a normal walk, the leg movement is slow and delicate and the body is hunched over slightly reducing the height of the person and reducing the bounce as the walk forwards.
+
+
+Report
+A brief report on the walk-cycle should be submitted. The report explains the characteristics of the person, how it is reflected in the animation and different walk cycles considered for this assignment. 
+The character I am using is call Todd-Model provided by the Tutor for this course. This model is of a standard sized male, and I had to decide on a walk-cycle for this animation.
+
+
+Characteristics and Animation
+I decided to do a standard walk cycle of 32 frames at 24 frames per second (fps). This would be a slightly causal or slower ‘normal’ walk but is still a standard walk cycle.
+
+Figure 5: Maya Frame Count
+This character is a male and from the research I found that males tend to keep their palms more pointed towards their body instead of pointed behind them. This is something I took into consideration in the animation. 
+
+This character being a male also has more arm movement when walking than a female would and so I made sure this animation took that into consideration and made sure the arm movement was more extended away from the body opposite with the legs. PHOTO
+
+
+
+I also made sure the walk cycle followed a reference when animating the leg and arm movement, so they were moving at the correct time and the bounce or height of the character was correct at any given frame in the walk cycle animation. I used two reference images when making the animation pictured below. 
+Figure 7: Walk Cycle Reference 1
+
+Figure 8: Walk Cycle Reference 2
+Final Animation
+Below are screen shots being the final animation for the walk cycle. It will be better to watch it as a looping video, but I have still shown it as photos to show the it in this report.
+Table 12: Maya Final Animation
+
+With the animation complete for the walk cycle, that concludes this report for CS204.
+
+References
+3h4k. (2018, April 16). 100 Different Ways to Walk by Kevin Parry (Animation Reference with Music) [Video]. YouTube. https://www.youtube.com/watch?v=cVjIqr8CTtQ
+Animation i - Principles. (n.d.). https://swardson.com/unm/animation1/mod13-walkcycle.php
+anishkrishan: Image. (n.d.). https://anishkrishan.wordpress.com/wp-content/uploads/2014/05/animatorssurvivalkit_walkcycleref2.png
+Cineversity Walk Cycle Wiki. (n.d.). https://www.cineversity.com/wiki/Walk_Cycle/
+endlessreference. (2010a, April 23). Athletic Male Standard Walk. Animation Reference Body Mechanics [Video]. YouTube. https://www.youtube.com/watch?v=vq9A5FD8G5w
+endlessreference. (2010b, April 23). Female Standard Walk - Grid Overlay. animation reference Body Mechanics [Video]. YouTube. https://www.youtube.com/watch?v=G8Veye-N0A4
+endlessreference. (2010c, April 23). Larger male standard walk - grid overlay. animation reference body mechanics [Video]. YouTube. https://www.youtube.com/watch?v=L3_em686qEE
+endlessreference. (2011, July 27). Mature Aged Woman Walk Casual - Slow motion. animation reference body mechanics [Video]. YouTube. https://www.youtube.com/watch?v=4nbDeEaArPs
+Kurniawan, M., & Hara, H. (n.d.). The importance of frame rate in moviemaking. Adobe. Retrieved June 17, 2024, from https://www.adobe.com/nz/creativecloud/video/discover/frame-rate.html
+Walk cycle. (2024, June 5). Brush Ninja. https://brush.ninja/glossary/animation/walk-cycle/
+Walk Cycle Reference. (n.d.). https://i.ytimg.com/vi/4S2go2Hu22c/maxresdefault.jpg
+Wobbe @ Monmouth – Movement - walk cycle. (n.d.). https://bluehawk.monmouth.edu/~wkoning/instruct/?page=General&show=1
+
+CS204
+
+Alex Legner – 270168960		Page | 2 
+
