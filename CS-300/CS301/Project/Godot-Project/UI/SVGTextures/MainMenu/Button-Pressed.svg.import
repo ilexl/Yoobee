@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c0bm143xgahom"
+path="res://.godot/imported/Button-Pressed.svg-ec9e26e9dc89251345822a9e2da143c6.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/MainMenu/Button-Pressed.svg"
+dest_files=["res://.godot/imported/Button-Pressed.svg-ec9e26e9dc89251345822a9e2da143c6.sex"]
+
+[params]
+

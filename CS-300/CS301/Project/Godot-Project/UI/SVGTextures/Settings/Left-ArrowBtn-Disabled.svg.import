@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://l0pp4d0bay5a"
+path="res://.godot/imported/Left-ArrowBtn-Disabled.svg-05aaf47b65c858ea136cbd625ee343c8.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Left-ArrowBtn-Disabled.svg"
+dest_files=["res://.godot/imported/Left-ArrowBtn-Disabled.svg-05aaf47b65c858ea136cbd625ee343c8.sex"]
+
+[params]
+

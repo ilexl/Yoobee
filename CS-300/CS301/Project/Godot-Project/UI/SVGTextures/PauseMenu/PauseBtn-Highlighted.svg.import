@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://daxoe6tiu6ktu"
+path="res://.godot/imported/PauseBtn-Highlighted.svg-658d882e3bf1c5a438c6195eec07a499.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PauseMenu/PauseBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/PauseBtn-Highlighted.svg-658d882e3bf1c5a438c6195eec07a499.sex"]
+
+[params]
+

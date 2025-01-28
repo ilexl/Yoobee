@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bfka3prkjf5sa"
+path="res://.godot/imported/UpArrow-Pressed.svg-8c9d71c609b30fe83674b4a3757cf9de.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/UpArrow-Pressed.svg"
+dest_files=["res://.godot/imported/UpArrow-Pressed.svg-8c9d71c609b30fe83674b4a3757cf9de.sex"]
+
+[params]
+

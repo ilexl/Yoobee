@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dc41d6yv17osy"
+path="res://.godot/imported/UpArrow-Normal.svg-3bfa7387932d71aa7bfb7143869ff747.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/UpArrow-Normal.svg"
+dest_files=["res://.godot/imported/UpArrow-Normal.svg-3bfa7387932d71aa7bfb7143869ff747.sex"]
+
+[params]
+

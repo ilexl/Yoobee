@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://de4akwih1ftww"
+path="res://.godot/imported/HUD-Left-Closed.svg-3cf58bed2d6334e3a09474e0e8e561ff.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/HUD/HUD-Left-Closed.svg"
+dest_files=["res://.godot/imported/HUD-Left-Closed.svg-3cf58bed2d6334e3a09474e0e8e561ff.sex"]
+
+[params]
+

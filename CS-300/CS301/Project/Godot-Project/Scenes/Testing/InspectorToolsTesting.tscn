@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://lvdf1d4dbg5k"]
+
+[ext_resource type="Script" path="res://addons/inspectorbutton/TestButton.cs" id="1_e0eek"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="InspectorButtonTest" type="Node" parent="."]
+script = ExtResource("1_e0eek")

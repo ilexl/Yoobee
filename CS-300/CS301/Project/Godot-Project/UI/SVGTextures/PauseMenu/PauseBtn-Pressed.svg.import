@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cv1jqijhyyx32"
+path="res://.godot/imported/PauseBtn-Pressed.svg-343eae21403d5ef911ac1e1c318d4f75.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PauseMenu/PauseBtn-Pressed.svg"
+dest_files=["res://.godot/imported/PauseBtn-Pressed.svg-343eae21403d5ef911ac1e1c318d4f75.sex"]
+
+[params]
+

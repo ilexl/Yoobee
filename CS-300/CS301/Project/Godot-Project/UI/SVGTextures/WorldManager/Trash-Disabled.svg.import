@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bas2s8savswqp"
+path="res://.godot/imported/Trash-Disabled.svg-fecb200f1fa8aaf4a34f01f3c9b64d96.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/Trash-Disabled.svg"
+dest_files=["res://.godot/imported/Trash-Disabled.svg-fecb200f1fa8aaf4a34f01f3c9b64d96.sex"]
+
+[params]
+

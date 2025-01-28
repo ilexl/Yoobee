@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cq73ul1qomneg"
+path="res://.godot/imported/SecondaryBtn-Highlighted.svg-ce988fec7f807ebd0bd9e0cac3fd688b.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/SecondaryBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/SecondaryBtn-Highlighted.svg-ce988fec7f807ebd0bd9e0cac3fd688b.sex"]
+
+[params]
+

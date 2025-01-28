@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://kcmy82dbcl7g"
+path="res://.godot/imported/Settings-IconHolderSelected.svg-9332314226609c50cba51ef4d71f2358.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-IconHolderSelected.svg"
+dest_files=["res://.godot/imported/Settings-IconHolderSelected.svg-9332314226609c50cba51ef4d71f2358.sex"]
+
+[params]
+

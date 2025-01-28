@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cicfj5bfk046"
+path="res://.godot/imported/Button-Highlight.svg-215229a10cc919698fea540d574cb9d5.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/MainMenu/Button-Highlight.svg"
+dest_files=["res://.godot/imported/Button-Highlight.svg-215229a10cc919698fea540d574cb9d5.sex"]
+
+[params]
+

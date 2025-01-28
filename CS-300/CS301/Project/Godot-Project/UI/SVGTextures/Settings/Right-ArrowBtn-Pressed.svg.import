@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://71qne3hfdkfs"
+path="res://.godot/imported/Right-ArrowBtn-Pressed.svg-51a51404483fb06b98d4f42d7c9ad34e.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Right-ArrowBtn-Pressed.svg"
+dest_files=["res://.godot/imported/Right-ArrowBtn-Pressed.svg-51a51404483fb06b98d4f42d7c9ad34e.sex"]
+
+[params]
+

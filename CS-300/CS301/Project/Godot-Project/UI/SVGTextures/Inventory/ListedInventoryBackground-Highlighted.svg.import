@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bok6asc785vgo"
+path="res://.godot/imported/ListedInventoryBackground-Highlighted.svg-423b21dd91cb098de64e863f5aa36ea0.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/ListedInventoryBackground-Highlighted.svg"
+dest_files=["res://.godot/imported/ListedInventoryBackground-Highlighted.svg-423b21dd91cb098de64e863f5aa36ea0.sex"]
+
+[params]
+

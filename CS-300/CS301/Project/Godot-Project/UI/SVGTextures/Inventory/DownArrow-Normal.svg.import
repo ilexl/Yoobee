@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c8yyyxf6vlhso"
+path="res://.godot/imported/DownArrow-Normal.svg-a7e2be867aadd09a27fc2c06e4352064.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/DownArrow-Normal.svg"
+dest_files=["res://.godot/imported/DownArrow-Normal.svg-a7e2be867aadd09a27fc2c06e4352064.sex"]
+
+[params]
+

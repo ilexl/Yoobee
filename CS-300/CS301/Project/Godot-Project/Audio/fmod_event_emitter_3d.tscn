@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3tt4hgakltp"]
+
+[ext_resource type="Script" path="res://Audio/autosound.gd" id="1_hr6sv"]
+
+[node name="Node" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0)
+
+[node name="FmodEventEmitter3D" type="FmodEventEmitter3D" parent="."]
+event_name = "event:/TestEvent"
+event_guid = "{4b7762c3-6b86-45aa-bffd-361ca0cd8c83}"
+script = ExtResource("1_hr6sv")
+
+[connection signal="stopped" from="FmodEventEmitter3D" to="FmodEventEmitter3D" method="_on_stopped"]

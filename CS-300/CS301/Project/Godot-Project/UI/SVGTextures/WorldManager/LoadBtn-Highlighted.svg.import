@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bo3uf5so08eso"
+path="res://.godot/imported/LoadBtn-Highlighted.svg-38271b7af68b71de6c2aaf8546c86e7c.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/LoadBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/LoadBtn-Highlighted.svg-38271b7af68b71de6c2aaf8546c86e7c.sex"]
+
+[params]
+

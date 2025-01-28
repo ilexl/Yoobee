@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://bg6c78mool4xq"]
+
+[ext_resource type="PackedScene" uid="uid://xjqrmh8r7gfp" path="res://Player/Player.tscn" id="1_jwtbg"]
+
+[node name="Root" type="Node3D"]
+
+[node name="Node3D" type="Node3D" parent="."]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.664137, 0.474088, -0.578068, 0.3381, 0.49917, 0.797821, 0.666791, -0.725307, 0.171228, 0, 13.2743, 0)
+
+[node name="Vessels" type="Node" parent="."]
+
+[node name="Players" type="Node" parent="."]
+
+[node name="PlayerOrigin" parent="Players" instance=ExtResource("1_jwtbg")]

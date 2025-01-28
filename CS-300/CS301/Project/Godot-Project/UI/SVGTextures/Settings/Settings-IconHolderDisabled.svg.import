@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://clmyyh8bgyhb3"
+path="res://.godot/imported/Settings-IconHolderDisabled.svg-b4a74cf013d6e00e4e691a63d2f4329a.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-IconHolderDisabled.svg"
+dest_files=["res://.godot/imported/Settings-IconHolderDisabled.svg-b4a74cf013d6e00e4e691a63d2f4329a.sex"]
+
+[params]
+

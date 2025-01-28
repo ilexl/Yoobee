@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dq5uek1on6neo"
+path="res://.godot/imported/Left-ArrowBtn-Normal.svg-e85a4a6b3f4e08bb2fe517a8c67804ee.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Left-ArrowBtn-Normal.svg"
+dest_files=["res://.godot/imported/Left-ArrowBtn-Normal.svg-e85a4a6b3f4e08bb2fe517a8c67804ee.sex"]
+
+[params]
+

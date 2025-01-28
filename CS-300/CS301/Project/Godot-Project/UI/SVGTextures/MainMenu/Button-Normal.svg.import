@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://difqx8qjjsgot"
+path="res://.godot/imported/Button-Normal.svg-d2fa3d8d3f1cee04aac6e8d740f00657.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/MainMenu/Button-Normal.svg"
+dest_files=["res://.godot/imported/Button-Normal.svg-d2fa3d8d3f1cee04aac6e8d740f00657.sex"]
+
+[params]
+

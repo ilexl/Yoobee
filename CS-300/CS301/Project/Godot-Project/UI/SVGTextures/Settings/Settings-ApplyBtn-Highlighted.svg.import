@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://b5sp6s31qp3hf"
+path="res://.godot/imported/Settings-ApplyBtn-Highlighted.svg-6abbcc621dfc0b111dc2308dfb847d40.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-ApplyBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/Settings-ApplyBtn-Highlighted.svg-6abbcc621dfc0b111dc2308dfb847d40.sex"]
+
+[params]
+

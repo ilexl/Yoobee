@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cxsgaadh2a4ps"
+path="res://.godot/imported/Settings-CancelBtn-Highlighted.svg-204a9d8c6e37007d4218a955f367926b.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-CancelBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/Settings-CancelBtn-Highlighted.svg-204a9d8c6e37007d4218a955f367926b.sex"]
+
+[params]
+

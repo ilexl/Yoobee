@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dbk471atpha87"
+path="res://.godot/imported/ErrorPopUpBackground.svg-81e06eee6b5e5a4c06557401b4ab8947.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/ErrorPopUpBackground.svg"
+dest_files=["res://.godot/imported/ErrorPopUpBackground.svg-81e06eee6b5e5a4c06557401b4ab8947.sex"]
+
+[params]
+

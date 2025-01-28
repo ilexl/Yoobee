@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://d1241ovrulvd1"
+path="res://.godot/imported/LoadBtn-Normal.svg-213a88778ec0886b7d0da24353401e26.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/LoadBtn-Normal.svg"
+dest_files=["res://.godot/imported/LoadBtn-Normal.svg-213a88778ec0886b7d0da24353401e26.sex"]
+
+[params]
+

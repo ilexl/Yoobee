@@ -1,0 +1,101 @@
+[gd_scene load_steps=17 format=3 uid="uid://d0seddgp21d6n"]
+
+[ext_resource type="PackedScene" uid="uid://bt33b5k48ip62" path="res://Scenes/UI.tscn" id="1_18pnr"]
+[ext_resource type="Script" path="res://WorldData/GameManager.cs" id="1_co5c1"]
+[ext_resource type="Script" path="res://WorldData/WorldDataManager.cs" id="2_1n58s"]
+[ext_resource type="Script" path="res://WorldData/Data.cs" id="2_c4xwi"]
+[ext_resource type="Script" path="res://Settings/Settings.cs" id="3_2sonm"]
+[ext_resource type="Script" path="res://WorldData/PlayerData.cs" id="3_gf60n"]
+[ext_resource type="Script" path="res://WorldData/VesselData.cs" id="6_s8e62"]
+[ext_resource type="PackedScene" uid="uid://xjqrmh8r7gfp" path="res://Player/Player.tscn" id="7_202vu"]
+[ext_resource type="PackedScene" uid="uid://hjmtbffy8j1q" path="res://Vessels/Vessel.tscn" id="7_nonp3"]
+[ext_resource type="Script" path="res://Scenes/FmodThingyLoader.cs" id="10_kxxpy"]
+[ext_resource type="PackedScene" uid="uid://b42nkolx525n4" path="res://wtf.tscn" id="11_o3yro"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_drl6i"]
+size = Vector2(100, 100)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s06yl"]
+size = Vector3(100, 1, 100)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_3oax2"]
+sky_top_color = Color(0.477699, 0.674804, 0.980143, 1)
+sky_horizon_color = Color(0.812721, 0.871443, 0.948088, 1)
+sky_curve = 0.0861525
+sun_angle_max = 18.98
+sun_curve = 0.344609
+
+[sub_resource type="Sky" id="Sky_4eeg8"]
+sky_material = SubResource("ProceduralSkyMaterial_3oax2")
+
+[sub_resource type="Environment" id="Environment_on88x"]
+background_mode = 2
+sky = SubResource("Sky_4eeg8")
+
+[node name="Game" type="Node"]
+script = ExtResource("1_co5c1")
+
+[node name="UI" parent="." node_paths=PackedStringArray("SettingsManager") instance=ExtResource("1_18pnr")]
+SettingsManager = NodePath("../Settings")
+
+[node name="Data" type="Node" parent="." node_paths=PackedStringArray("wmData")]
+script = ExtResource("2_c4xwi")
+_name = "AMONG US"
+_gameVersion = "0.0.1"
+_lastSaved = "25-10-2024 34:53:33"
+wmData = NodePath("../World")
+
+[node name="Settings" type="Node" parent="."]
+script = ExtResource("3_2sonm")
+MasterVolume = 100.0
+EffectsVolume = 100.0
+MusicVolume = 100.0
+DialougeVolume = 100.0
+Subtitles = true
+SpeakerSMode = 3
+Resolution = Vector2i(2560, 1440)
+RefreshRate = 60.0
+DisplaySMode = 1
+
+[node name="World" type="Node3D" parent="." node_paths=PackedStringArray("_dataPlayer", "_dataVessel")]
+script = ExtResource("2_1n58s")
+_dataPlayer = NodePath("Players")
+_dataVessel = NodePath("Vessels")
+
+[node name="Players" type="Node" parent="World"]
+script = ExtResource("3_gf60n")
+_playerPrefab = ExtResource("7_202vu")
+
+[node name="Vessels" type="Node" parent="World"]
+script = ExtResource("6_s8e62")
+_vesselBlank = ExtResource("7_nonp3")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="World"]
+transform = Transform3D(45.965, 0, 0, 0, 1, 0, 0, 0, 19.8536, 0, 0, 0)
+mesh = SubResource("PlaneMesh_drl6i")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="World"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5, 0)
+shape = SubResource("BoxShape3D_s06yl")
+
+[node name="WorldVisuals" type="Node" parent="World"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="World/WorldVisuals"]
+transform = Transform3D(1, 0, 0, 0, 0.712712, 0.701457, 0, -0.701457, 0.712712, 0, 3.89614, 0)
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="World/WorldVisuals"]
+environment = SubResource("Environment_on88x")
+
+[node name="FmodBankLoader" type="FmodBankLoader" parent="."]
+bank_paths = ["res://Audio/Desktop/Master.strings.bank", "res://Audio/Desktop/Master.bank", "res://Audio/Desktop/Test Bank 1.bank", "res://Audio/Desktop/Test Bank 2.bank"]
+
+[node name="FmodThingyLoader" type="Node3D" parent="."]
+visible = false
+script = ExtResource("10_kxxpy")
+_sceneToSpawn = ExtResource("11_o3yro")
+
+[node name="FmodListener3D" type="FmodListener3D" parent="."]

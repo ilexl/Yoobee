@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bds1pv8qbk2ms"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_1nc7u"]
+
+[node name="Head" type="Node3D"]
+rotation_edit_mode = 1
+
+[node name="Camera" type="Camera3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_1nc7u")

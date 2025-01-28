@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dd7jl1ugoimmy"
+path="res://.godot/imported/LoadBtn-Disabled.svg-3257f4aafa1defde2dedd9afb283fbaa.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/LoadBtn-Disabled.svg"
+dest_files=["res://.godot/imported/LoadBtn-Disabled.svg-3257f4aafa1defde2dedd9afb283fbaa.sex"]
+
+[params]
+

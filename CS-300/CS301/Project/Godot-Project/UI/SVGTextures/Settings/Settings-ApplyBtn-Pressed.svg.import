@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bfxi8woyippma"
+path="res://.godot/imported/Settings-ApplyBtn-Pressed.svg-beaac76d73af2ca20d2868775c38c25e.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-ApplyBtn-Pressed.svg"
+dest_files=["res://.godot/imported/Settings-ApplyBtn-Pressed.svg-beaac76d73af2ca20d2868775c38c25e.sex"]
+
+[params]
+

@@ -1,0 +1,15 @@
+<svg width="1008" height="102" viewBox="0 0 1008 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1008" height="102" fill="black" fill-opacity="0.25"/>
+<path d="M905.5 92V2" stroke="white" stroke-width="2"/>
+<path d="M805 92V2" stroke="white" stroke-width="2"/>
+<path d="M704.5 92V2" stroke="white" stroke-width="2"/>
+<path d="M604 92V2" stroke="white" stroke-width="2"/>
+<path d="M503.5 92V2" stroke="white" stroke-width="2"/>
+<path d="M403 92V2" stroke="white" stroke-width="2"/>
+<path d="M302.5 92V2" stroke="white" stroke-width="2"/>
+<path d="M202 92V2" stroke="white" stroke-width="2"/>
+<path d="M101.5 92V2" stroke="white" stroke-width="2"/>
+<rect width="1008" height="2" fill="white"/>
+<rect x="1008" y="102" width="2" height="100" transform="rotate(180 1008 102)" fill="white"/>
+<rect y="2" width="2" height="100" fill="white"/>
+</svg>

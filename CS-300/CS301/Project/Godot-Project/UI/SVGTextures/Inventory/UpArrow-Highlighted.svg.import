@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://d0k4bs1vhggqf"
+path="res://.godot/imported/UpArrow-Highlighted.svg-c4dfd49613da0c8cfac5ca7610d58656.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/UpArrow-Highlighted.svg"
+dest_files=["res://.godot/imported/UpArrow-Highlighted.svg-c4dfd49613da0c8cfac5ca7610d58656.sex"]
+
+[params]
+

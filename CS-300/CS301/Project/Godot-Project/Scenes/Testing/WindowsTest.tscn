@@ -1,0 +1,148 @@
+[gd_scene load_steps=5 format=3 uid="uid://c7asrc2kdprln"]
+
+[ext_resource type="Script" path="res://UI/WindowManager.cs" id="1_383jv"]
+[ext_resource type="Script" path="res://Testing/WindowsTest/WindowsTest.cs" id="1_ms6wr"]
+[ext_resource type="FontFile" uid="uid://c5r21hccfrbjj" path="res://UI/Fonts/Kufam-Italic-VariableFont_wght.ttf" id="2_qsgaq"]
+[ext_resource type="Script" path="res://UI/Window.cs" id="2_stj5o"]
+
+[node name="WindowsTest" type="CanvasLayer"]
+script = ExtResource("1_ms6wr")
+
+[node name="WindowManager" type="Node" parent="." node_paths=PackedStringArray("Windows")]
+script = ExtResource("1_383jv")
+Windows = [NodePath("Window1"), NodePath("Window2"), NodePath("Window3")]
+
+[node name="Window1" type="Control" parent="WindowManager"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_stj5o")
+ShowOnStart = true
+
+[node name="Button" type="Button" parent="WindowManager/Window1"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -170.0
+offset_right = 250.0
+offset_bottom = -70.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Next Window!"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="WindowManager/Window1"]
+clip_contents = false
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -50.0
+offset_right = 400.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_qsgaq")
+theme_override_font_sizes/normal_font_size = 96
+text = "This is Window 1"
+scroll_active = false
+
+[node name="Window2" type="Control" parent="WindowManager"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_stj5o")
+
+[node name="Button" type="Button" parent="WindowManager/Window2"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -170.0
+offset_right = 250.0
+offset_bottom = -70.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Next Window!"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="WindowManager/Window2"]
+clip_contents = false
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -50.0
+offset_right = 400.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_qsgaq")
+theme_override_font_sizes/normal_font_size = 96
+text = "This is Window 2"
+scroll_active = false
+
+[node name="Window3" type="Control" parent="WindowManager"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_stj5o")
+
+[node name="Button" type="Button" parent="WindowManager/Window3"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -250.0
+offset_top = -170.0
+offset_right = 250.0
+offset_bottom = -70.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Next Window!"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="WindowManager/Window3"]
+clip_contents = false
+custom_minimum_size = Vector2(20, 20)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -50.0
+offset_right = 400.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_qsgaq")
+theme_override_font_sizes/normal_font_size = 96
+text = "This is Window 3"
+scroll_active = false

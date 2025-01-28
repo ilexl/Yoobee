@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://decfmdb0v83u"
+path="res://.godot/imported/InventorySlot.svg-176a93583f401f75f1adc04e6edec514.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/InventorySlot.svg"
+dest_files=["res://.godot/imported/InventorySlot.svg-176a93583f401f75f1adc04e6edec514.sex"]
+
+[params]
+

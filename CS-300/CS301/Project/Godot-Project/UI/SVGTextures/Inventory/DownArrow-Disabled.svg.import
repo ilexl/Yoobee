@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://b3e08jovbo2m7"
+path="res://.godot/imported/DownArrow-Disabled.svg-ff50158b0b813abb54f84ff991803ad6.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/DownArrow-Disabled.svg"
+dest_files=["res://.godot/imported/DownArrow-Disabled.svg-ff50158b0b813abb54f84ff991803ad6.sex"]
+
+[params]
+

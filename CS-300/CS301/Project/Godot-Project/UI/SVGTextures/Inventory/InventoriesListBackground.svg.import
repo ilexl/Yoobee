@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://t7lr6f7c2xnp"
+path="res://.godot/imported/InventoriesListBackground.svg-653ca795c0b1a52ed3f4c476e83909ae.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/InventoriesListBackground.svg"
+dest_files=["res://.godot/imported/InventoriesListBackground.svg-653ca795c0b1a52ed3f4c476e83909ae.sex"]
+
+[params]
+

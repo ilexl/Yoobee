@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c2o8pg3bhh4kj"
+path="res://.godot/imported/RemapBtn-Disabled.svg-cf154936174aa8fcc54ef00b5a11ac14.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/RemapBtn-Disabled.svg"
+dest_files=["res://.godot/imported/RemapBtn-Disabled.svg-cf154936174aa8fcc54ef00b5a11ac14.sex"]
+
+[params]
+

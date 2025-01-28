@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dh4226pw6w2wk"
+path="res://.godot/imported/Right-ArrowBtn-Highlighted.svg-30121d205cf5e09a85b75f0421551ccd.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Right-ArrowBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/Right-ArrowBtn-Highlighted.svg-30121d205cf5e09a85b75f0421551ccd.sex"]
+
+[params]
+

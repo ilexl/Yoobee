@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cifmvpjre8y2x"
+path="res://.godot/imported/ComponentSelection-Filter-Selected.svg-8121bde3888a0307e841bfbe963af178.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/ComponentSelection/ComponentSelection-Filter-Selected.svg"
+dest_files=["res://.godot/imported/ComponentSelection-Filter-Selected.svg-8121bde3888a0307e841bfbe963af178.sex"]
+
+[params]
+

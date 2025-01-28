@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://crch5xeij701l"
+path="res://.godot/imported/PrimaryBtn-Normal.svg-584cccfee099b1ca0f35c01cb3c98d73.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/PrimaryBtn-Normal.svg"
+dest_files=["res://.godot/imported/PrimaryBtn-Normal.svg-584cccfee099b1ca0f35c01cb3c98d73.sex"]
+
+[params]
+

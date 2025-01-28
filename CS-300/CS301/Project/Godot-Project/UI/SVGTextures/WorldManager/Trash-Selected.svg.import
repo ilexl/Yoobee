@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://0fg7ok0f56yt"
+path="res://.godot/imported/Trash-Selected.svg-04ea4d8aa3f7a57d38518b4c26d1c096.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/Trash-Selected.svg"
+dest_files=["res://.godot/imported/Trash-Selected.svg-04ea4d8aa3f7a57d38518b4c26d1c096.sex"]
+
+[params]
+

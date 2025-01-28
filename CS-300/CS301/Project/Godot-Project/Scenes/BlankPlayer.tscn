@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://ct2lcrtnb5t1c"]
+
+[node name="BlankPlayer" type="Node3D"]

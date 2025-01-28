@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cuup0wwfcoru4"
+path="res://.godot/imported/Settings-CancelBtn-Disabled.svg-58896679353971839ab3c97d9d6467e2.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-CancelBtn-Disabled.svg"
+dest_files=["res://.godot/imported/Settings-CancelBtn-Disabled.svg-58896679353971839ab3c97d9d6467e2.sex"]
+
+[params]
+

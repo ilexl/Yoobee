@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://hjmtbffy8j1q"]
+
+[ext_resource type="Script" path="res://Vessels/Vessel.cs" id="1_5i8yc"]
+
+[node name="Node" type="Node" node_paths=PackedStringArray("RigidBody", "ComponentData")]
+script = ExtResource("1_5i8yc")
+RigidBody = NodePath("VesselRigidBody")
+ComponentData = NodePath("VesselRigidBody/ComponentData")
+
+[node name="VesselRigidBody" type="RigidBody3D" parent="."]
+collision_layer = 7
+
+[node name="ComponentData" type="Node" parent="VesselRigidBody"]

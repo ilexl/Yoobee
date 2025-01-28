@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://06e1ngc6t3b4"
+path="res://.godot/imported/WorldRectangle-Normal.svg-fb0ec0ecb149f9bd7ddfc4b4dfcd5d84.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldRectangle-Normal.svg"
+dest_files=["res://.godot/imported/WorldRectangle-Normal.svg-fb0ec0ecb149f9bd7ddfc4b4dfcd5d84.sex"]
+
+[params]
+

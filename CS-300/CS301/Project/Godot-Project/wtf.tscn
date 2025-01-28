@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b42nkolx525n4"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="FmodEventEmitter3D" type="FmodEventEmitter3D" parent="."]
+event_name = "event:/BarneyFromBlackMesa"
+event_guid = "{7013d169-a796-4bd5-b8c5-d5d46d3d8a11}"
+autoplay = true
+event_parameter/Distance/id = -2494496003703586927
+event_parameter/Distance/value = 3.40282e+38
+event_parameter/Distance/min_value = 0.0
+event_parameter/Distance/max_value = 20000.0
+event_parameter/Distance/default_value = 3.40282e+38
+event_parameter/Distance/variant_type = 3

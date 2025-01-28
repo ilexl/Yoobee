@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://wv6y25q0mmso"
+path="res://.godot/imported/SaveBtn-Normal.svg-a53535eb2ffb5389158db3a7375d5466.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/SaveBtn-Normal.svg"
+dest_files=["res://.godot/imported/SaveBtn-Normal.svg-a53535eb2ffb5389158db3a7375d5466.sex"]
+
+[params]
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{df6ea946-d928-4b6f-ad1d-bead12f2cf73}">
+		<property name="assetPath">
+			<value>it's-me-gordon-barney,-from-black-mesa!-made-with-Voicemod.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9.3599999999999994</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{89588994-7755-41e6-b3aa-83133a77ce63}</destination>
+		</relationship>
+	</object>
+</objects>

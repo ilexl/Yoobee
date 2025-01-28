@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://ceuky1lbdnngj"
+path="res://.godot/imported/UpArrow-Disabled.svg-fe4c503b394c23b2882ed66d7a2b8b9d.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/UpArrow-Disabled.svg"
+dest_files=["res://.godot/imported/UpArrow-Disabled.svg-fe4c503b394c23b2882ed66d7a2b8b9d.sex"]
+
+[params]
+

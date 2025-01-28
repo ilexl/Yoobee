@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dmdmk4no8rpsl"
+path="res://.godot/imported/it's-me-gordon-barney,-from-black-mesa!-made-with-Voicemod.mp3-1a8ad38d409ae9e10b439e9b912405b5.mp3str"
+
+[deps]
+
+source_file="res://FmodProject/Architects In Void/Assets/it's-me-gordon-barney,-from-black-mesa!-made-with-Voicemod.mp3"
+dest_files=["res://.godot/imported/it's-me-gordon-barney,-from-black-mesa!-made-with-Voicemod.mp3-1a8ad38d409ae9e10b439e9b912405b5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

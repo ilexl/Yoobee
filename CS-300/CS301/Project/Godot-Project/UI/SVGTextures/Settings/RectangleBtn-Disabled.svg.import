@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://b87fkd21lol0i"
+path="res://.godot/imported/RectangleBtn-Disabled.svg-87949f7acfedb71b86d738ad2a792332.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/RectangleBtn-Disabled.svg"
+dest_files=["res://.godot/imported/RectangleBtn-Disabled.svg-87949f7acfedb71b86d738ad2a792332.sex"]
+
+[params]
+

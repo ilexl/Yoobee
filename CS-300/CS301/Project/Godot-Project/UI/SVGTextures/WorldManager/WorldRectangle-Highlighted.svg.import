@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cmq4h3qwxpsrt"
+path="res://.godot/imported/WorldRectangle-Highlighted.svg-33c27c7c8d89ffc45da48356ef729543.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldRectangle-Highlighted.svg"
+dest_files=["res://.godot/imported/WorldRectangle-Highlighted.svg-33c27c7c8d89ffc45da48356ef729543.sex"]
+
+[params]
+

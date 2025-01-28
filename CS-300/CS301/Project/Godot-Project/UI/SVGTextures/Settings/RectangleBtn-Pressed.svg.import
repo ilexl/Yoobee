@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c10sio0mq18xj"
+path="res://.godot/imported/RectangleBtn-Pressed.svg-515c7d8767ab416b1995f816aac125c0.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/RectangleBtn-Pressed.svg"
+dest_files=["res://.godot/imported/RectangleBtn-Pressed.svg-515c7d8767ab416b1995f816aac125c0.sex"]
+
+[params]
+

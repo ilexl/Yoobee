@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bas26g2u4dc7q"
+path="res://.godot/imported/PauseMenuBackground.svg-03580afa9c49a2a4ff15a3b1233e762d.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PauseMenu/PauseMenuBackground.svg"
+dest_files=["res://.godot/imported/PauseMenuBackground.svg-03580afa9c49a2a4ff15a3b1233e762d.sex"]
+
+[params]
+

@@ -1,0 +1,160 @@
+[gd_scene load_steps=6 format=3 uid="uid://dngo02dfwkhyj"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_dod2g"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_003bh"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4b4h7"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_5lt8n"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_c7ns6"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Target2" type="RigidBody3D" parent="."]
+transform = Transform3D(0.63733, -0.770591, 0, 0.770591, 0.63733, 0, 0, 0, 1, 27.1679, -8.88178e-16, 0)
+mass = 10000.0
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Target2"]
+transform = Transform3D(20, 0, 0, 0, 5, 0, 0, 0, 20, 0, 0, 0)
+shape = SubResource("BoxShape3D_003bh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Target2"]
+transform = Transform3D(20, 0, 0, 0, 5, 0, 0, 0, 20, 0, 0, 0)
+mesh = SubResource("BoxMesh_4b4h7")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="Target" type="RigidBody3D" parent="."]
+transform = Transform3D(0.995334, 0.0964885, 0, -0.0964885, 0.995334, 0, 0, 0, 1, 0, 0, 0)
+mass = 100000.0
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Target"]
+transform = Transform3D(20, 0, 0, 0, 5, 0, 0, 0, 20, 0, 0, 0)
+shape = SubResource("BoxShape3D_003bh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Target"]
+transform = Transform3D(20, 0, 0, 0, 5, 0, 0, 0, 20, 0, 0, 0)
+mesh = SubResource("BoxMesh_4b4h7")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.719885, 0.14207, -0.679398, 1.12802e-17, 0.978828, 0.204684, 0.694093, -0.147349, 0.704644, -12.2869, 11.04, 34.9242)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Camera3D"]
+
+[node name="Projectile" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 50000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile2" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 100000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile2"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile2"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile3" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 150000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile3"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile3"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile4" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 200000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile4"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile4"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile5" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 250000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile5"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile5"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile6" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 300000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile6"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile6"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile7" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 350000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile7"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile7"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")
+
+[node name="Projectile8" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 400000, 0)
+physics_material_override = SubResource("PhysicsMaterial_dod2g")
+continuous_cd = true
+linear_velocity = Vector3(0, -50000, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Projectile8"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+mesh = SubResource("CapsuleMesh_5lt8n")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Projectile8"]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
+shape = SubResource("CapsuleShape3D_c7ns6")

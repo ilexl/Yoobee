@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cqai2hr815fm7"
+path="res://.godot/imported/ErrorPopUpCloseBtn.svg-c2d8adeeeb198d700234624277ee46ea.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/ErrorPopUpCloseBtn.svg"
+dest_files=["res://.godot/imported/ErrorPopUpCloseBtn.svg-c2d8adeeeb198d700234624277ee46ea.sex"]
+
+[params]
+

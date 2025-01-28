@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bf663080dxmin"
+path="res://.godot/imported/Display-icon.svg-5b4906cc55ab0e0799aafbb0e82fd80c.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Display-icon.svg"
+dest_files=["res://.godot/imported/Display-icon.svg-5b4906cc55ab0e0799aafbb0e82fd80c.sex"]
+
+[params]
+

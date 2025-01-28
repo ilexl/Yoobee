@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://uiexwlpkiloo"
+path="res://.godot/imported/DownArrow-Highlighted.svg-acf5de89b9112037eff39f75e4b3d9fd.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/DownArrow-Highlighted.svg"
+dest_files=["res://.godot/imported/DownArrow-Highlighted.svg-acf5de89b9112037eff39f75e4b3d9fd.sex"]
+
+[params]
+

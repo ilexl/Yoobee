@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dggo14vsbaq85"
+path="res://.godot/imported/Reset-icon.svg-e46a2b68f548d0fbe6d91a9754524afb.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Reset-icon.svg"
+dest_files=["res://.godot/imported/Reset-icon.svg-e46a2b68f548d0fbe6d91a9754524afb.sex"]
+
+[params]
+

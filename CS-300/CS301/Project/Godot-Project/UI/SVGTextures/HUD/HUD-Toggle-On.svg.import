@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cqtoyh1g8nob7"
+path="res://.godot/imported/HUD-Toggle-On.svg-ad7ec73984b5da10d62e062c8ccc9253.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/HUD/HUD-Toggle-On.svg"
+dest_files=["res://.godot/imported/HUD-Toggle-On.svg-ad7ec73984b5da10d62e062c8ccc9253.sex"]
+
+[params]
+

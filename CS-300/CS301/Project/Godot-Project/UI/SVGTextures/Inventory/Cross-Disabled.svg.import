@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cdgtb5q2a1rrx"
+path="res://.godot/imported/Cross-Disabled.svg-3e3cf42d2c5ed0e71902e0848c84d988.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/Cross-Disabled.svg"
+dest_files=["res://.godot/imported/Cross-Disabled.svg-3e3cf42d2c5ed0e71902e0848c84d988.sex"]
+
+[params]
+

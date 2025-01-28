@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://wnxmhhha33h1"
+path="res://.godot/imported/PrimaryBtn-Pressed.svg-c09b6454d39b2f1c7307b62d7ca786e3.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/PrimaryBtn-Pressed.svg"
+dest_files=["res://.godot/imported/PrimaryBtn-Pressed.svg-c09b6454d39b2f1c7307b62d7ca786e3.sex"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c4e2cciqjtnfg"
+path="res://.godot/imported/Settings-ApplyBtn-Disabled.svg-d9b7ab9760ce57a154d4dc47d55f7596.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-ApplyBtn-Disabled.svg"
+dest_files=["res://.godot/imported/Settings-ApplyBtn-Disabled.svg-d9b7ab9760ce57a154d4dc47d55f7596.sex"]
+
+[params]
+

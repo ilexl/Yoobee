@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dujf4fqj85151"
+path="res://.godot/imported/Trash-Normal.svg-f375bd1205e7606ecfe5da8290cd8198.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/Trash-Normal.svg"
+dest_files=["res://.godot/imported/Trash-Normal.svg-f375bd1205e7606ecfe5da8290cd8198.sex"]
+
+[params]
+

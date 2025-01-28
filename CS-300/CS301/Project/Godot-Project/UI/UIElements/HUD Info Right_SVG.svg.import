@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://l8xk41arlbat"
+path="res://.godot/imported/HUD Info Right_SVG.svg-af9ca51154f1e57be0cbe380fa368156.sex"
+
+[deps]
+
+source_file="res://UI/UIElements/HUD Info Right_SVG.svg"
+dest_files=["res://.godot/imported/HUD Info Right_SVG.svg-af9ca51154f1e57be0cbe380fa368156.sex"]
+
+[params]
+

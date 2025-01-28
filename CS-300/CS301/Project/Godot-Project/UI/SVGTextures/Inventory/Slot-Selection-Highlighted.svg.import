@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://s05etbkmpwdv"
+path="res://.godot/imported/Slot-Selection-Highlighted.svg-6c17b2a19a6102561653705fce494e25.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/Slot-Selection-Highlighted.svg"
+dest_files=["res://.godot/imported/Slot-Selection-Highlighted.svg-6c17b2a19a6102561653705fce494e25.sex"]
+
+[params]
+

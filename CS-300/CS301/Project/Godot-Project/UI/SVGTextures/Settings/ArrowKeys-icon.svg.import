@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cd3tc8gpp6x7a"
+path="res://.godot/imported/ArrowKeys-icon.svg-704902f345a4dee2b643f06d73de95bc.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/ArrowKeys-icon.svg"
+dest_files=["res://.godot/imported/ArrowKeys-icon.svg-704902f345a4dee2b643f06d73de95bc.sex"]
+
+[params]
+

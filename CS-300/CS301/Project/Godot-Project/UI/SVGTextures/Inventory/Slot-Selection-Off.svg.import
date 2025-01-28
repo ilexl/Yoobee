@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://vk7ciu41e4sp"
+path="res://.godot/imported/Slot-Selection-Off.svg-0a666fda8215c1d68be40b065dc2df07.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/Slot-Selection-Off.svg"
+dest_files=["res://.godot/imported/Slot-Selection-Off.svg-0a666fda8215c1d68be40b065dc2df07.sex"]
+
+[params]
+

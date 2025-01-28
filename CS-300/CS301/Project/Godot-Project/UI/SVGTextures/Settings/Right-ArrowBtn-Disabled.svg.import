@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bdeo7o4cm5wrg"
+path="res://.godot/imported/Right-ArrowBtn-Disabled.svg-e8292f5a05cb715c2f6b275ae557fc87.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Right-ArrowBtn-Disabled.svg"
+dest_files=["res://.godot/imported/Right-ArrowBtn-Disabled.svg-e8292f5a05cb715c2f6b275ae557fc87.sex"]
+
+[params]
+

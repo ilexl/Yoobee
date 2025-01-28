@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dym67ni3xlng7"
+path="res://.godot/imported/SaveBtn-Pressed.svg-785724ec94bd5db7bd100b7f3ffe725b.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/SaveBtn-Pressed.svg"
+dest_files=["res://.godot/imported/SaveBtn-Pressed.svg-785724ec94bd5db7bd100b7f3ffe725b.sex"]
+
+[params]
+

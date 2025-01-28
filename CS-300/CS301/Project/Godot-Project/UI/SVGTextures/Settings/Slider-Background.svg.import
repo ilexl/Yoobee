@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bj4og2k44xcn6"
+path="res://.godot/imported/Slider-Background.svg-b4ae9d009959a1da922bbde96cf1c176.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Slider-Background.svg"
+dest_files=["res://.godot/imported/Slider-Background.svg-b4ae9d009959a1da922bbde96cf1c176.sex"]
+
+[params]
+

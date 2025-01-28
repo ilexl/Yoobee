@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c3nt5f5fjoir5"
+path="res://.godot/imported/DownArrow-Pressed.svg-a6eeba3c0b0195c89ec7149ad14e5dcf.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/DownArrow-Pressed.svg"
+dest_files=["res://.godot/imported/DownArrow-Pressed.svg-a6eeba3c0b0195c89ec7149ad14e5dcf.sex"]
+
+[params]
+

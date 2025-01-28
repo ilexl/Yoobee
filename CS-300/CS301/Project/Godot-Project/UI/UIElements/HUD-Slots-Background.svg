@@ -1,0 +1,16 @@
+<svg width="1010" height="110" viewBox="0 0 1010 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="10" width="1008" height="100" fill="black" fill-opacity="0.25"/>
+<path d="M906.5 95V5" stroke="white" stroke-width="2"/>
+<path d="M806 95V5" stroke="white" stroke-width="2"/>
+<path d="M705.5 95V5" stroke="white" stroke-width="2"/>
+<path d="M605 95V5" stroke="white" stroke-width="2"/>
+<path d="M504.5 95V5" stroke="white" stroke-width="2"/>
+<path d="M404 95V5" stroke="white" stroke-width="2"/>
+<path d="M303.5 95V5" stroke="white" stroke-width="2"/>
+<path d="M203 95V5" stroke="white" stroke-width="2"/>
+<path d="M102.5 95V5" stroke="white" stroke-width="2"/>
+<rect width="1010" height="5" fill="white"/>
+<rect y="4" width="1010" height="1" fill="white"/>
+<rect x="1010" y="105" width="1.2" height="100" transform="rotate(180 1010 105)" fill="white"/>
+<rect y="5" width="1.2" height="100" fill="white"/>
+</svg>

@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=3 uid="uid://bhfhgvggl7hea"]
+
+[ext_resource type="Script" path="res://Vessels/VesselComponents/Cockpit/Cockpit.cs" id="1_s7dop"]
+[ext_resource type="Image" uid="uid://dj685awffwbjp" path="res://Vessels/VesselComponents/Cockpit/thumb.res" id="2_4m6me"]
+[ext_resource type="Script" path="res://Vessels/VesselComponents/Cockpit/CockpitBehavior.cs" id="3_anged"]
+[ext_resource type="Script" path="res://Interactables/InteractableObject.cs" id="3_d4urn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1s8d4"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_t85wd"]
+size = Vector3(0.7, 1, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_sast3"]
+size = Vector3(1, 0.7, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_rigni"]
+top_radius = 0.3
+bottom_radius = 0.3
+height = 1.0
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f4dn2"]
+
+[node name="Cockpit" type="CollisionShape3D"]
+transform = Transform3D(1, 0, 0, 0, 1.5, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("BoxShape3D_1s8d4")
+script = ExtResource("1_s7dop")
+_Thumbnail = ExtResource("2_4m6me")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.12323e-17, 0, 1, 0, 1, 0, -1, 0, 6.12323e-17, 0, 0, 0.15)
+mesh = SubResource("BoxMesh_t85wd")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.12323e-17, 0, 1, 0, 1, 0, -1, 0, 6.12323e-17, 0, -0.133333, 0)
+mesh = SubResource("BoxMesh_sast3")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(6.12323e-17, -1, 0, -6.93889e-17, 3.23815e-17, 1, -1, -6.12323e-17, -6.93889e-17, 1.22465e-17, 0.2, -0.2)
+mesh = SubResource("CylinderMesh_rigni")
+
+[node name="Behavior" type="Node3D" parent="." node_paths=PackedStringArray("_interactor", "PhysicalCockpit")]
+script = ExtResource("3_anged")
+_interactor = NodePath("../Interactor")
+PhysicalCockpit = NodePath("..")
+
+[node name="Interactor" type="StaticBody3D" parent="."]
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("3_d4urn")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Interactor"]
+shape = SubResource("BoxShape3D_f4dn2")

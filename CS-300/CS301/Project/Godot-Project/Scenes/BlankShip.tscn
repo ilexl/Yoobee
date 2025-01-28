@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b6423yb2velep"]
+
+[ext_resource type="Script" path="res://Building/Ship.cs" id="1_k3do1"]
+
+[node name="BlankShip" type="Node3D"]
+script = ExtResource("1_k3do1")

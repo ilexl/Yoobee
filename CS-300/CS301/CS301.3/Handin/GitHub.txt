@@ -1,0 +1,8 @@
+https://github.com/ilexl/Architects-In-Void
+
+Download the latest release for a pre compiled version for your operating system.
+https://github.com/ilexl/Architects-In-Void/releases/tag/Demo
+
+You will not be able to open the project with the normal version of Godot.
+If you wish to compile the program yourself, follow the instructions in CS301.4
+

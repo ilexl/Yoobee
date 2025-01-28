@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bfllsacih3mv5"
+path="res://.godot/imported/PopUpMainBackground.svg-56f5d87b4c200d6c5cd07826b4aadd68.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PopUp/PopUpMainBackground.svg"
+dest_files=["res://.godot/imported/PopUpMainBackground.svg-56f5d87b4c200d6c5cd07826b4aadd68.sex"]
+
+[params]
+

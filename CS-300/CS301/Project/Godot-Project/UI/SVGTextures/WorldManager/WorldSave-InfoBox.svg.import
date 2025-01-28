@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://j758ufr2fof0"
+path="res://.godot/imported/WorldSave-InfoBox.svg-bc852234e9a887c7613af679f3edee97.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldSave-InfoBox.svg"
+dest_files=["res://.godot/imported/WorldSave-InfoBox.svg-bc852234e9a887c7613af679f3edee97.sex"]
+
+[params]
+

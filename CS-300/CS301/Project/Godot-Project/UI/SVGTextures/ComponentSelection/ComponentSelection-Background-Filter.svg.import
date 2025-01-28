@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cfg5lbsx0oyo"
+path="res://.godot/imported/ComponentSelection-Background-Filter.svg-836ebfdcc6601fcd0b7f5f0994e29c81.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/ComponentSelection/ComponentSelection-Background-Filter.svg"
+dest_files=["res://.godot/imported/ComponentSelection-Background-Filter.svg-836ebfdcc6601fcd0b7f5f0994e29c81.sex"]
+
+[params]
+

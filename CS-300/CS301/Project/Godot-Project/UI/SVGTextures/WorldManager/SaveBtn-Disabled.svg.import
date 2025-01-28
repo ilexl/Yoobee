@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bhsd0cas6fdwp"
+path="res://.godot/imported/SaveBtn-Disabled.svg-465b8a2d8df0cff876a62759ee1c36c4.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/SaveBtn-Disabled.svg"
+dest_files=["res://.godot/imported/SaveBtn-Disabled.svg-465b8a2d8df0cff876a62759ee1c36c4.sex"]
+
+[params]
+

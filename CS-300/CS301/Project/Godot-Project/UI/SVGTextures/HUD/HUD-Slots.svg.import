@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://b8joqemapd25w"
+path="res://.godot/imported/HUD-Slots.svg-98f737a7638970dffef2da8a824dc0c2.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/HUD/HUD-Slots.svg"
+dest_files=["res://.godot/imported/HUD-Slots.svg-98f737a7638970dffef2da8a824dc0c2.sex"]
+
+[params]
+

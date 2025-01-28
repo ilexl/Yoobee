@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c061q0tphpepe"
+path="res://.godot/imported/RectangleBtn-Highlighted.svg-8b9c88a27745701cd09bdc7166837d9d.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/RectangleBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/RectangleBtn-Highlighted.svg-8b9c88a27745701cd09bdc7166837d9d.sex"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://u8iot4v0mlr"
+path="res://.godot/imported/Cross-Normal.svg-caf91e08a7816d2b83d11943f25ebbd1.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/Cross-Normal.svg"
+dest_files=["res://.godot/imported/Cross-Normal.svg-caf91e08a7816d2b83d11943f25ebbd1.sex"]
+
+[params]
+

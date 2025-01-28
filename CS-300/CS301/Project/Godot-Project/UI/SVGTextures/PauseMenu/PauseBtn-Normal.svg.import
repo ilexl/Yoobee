@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cwvxcuo1pjobp"
+path="res://.godot/imported/PauseBtn-Normal.svg-4b5a4bb2650cd45cc0fb3a2a8b7736d6.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/PauseMenu/PauseBtn-Normal.svg"
+dest_files=["res://.godot/imported/PauseBtn-Normal.svg-4b5a4bb2650cd45cc0fb3a2a8b7736d6.sex"]
+
+[params]
+

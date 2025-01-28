@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dmoegj7vqv5k6"
+path="res://.godot/imported/Cross-Pressed.svg-ed7fd36f07eebd2ffeb3b15e18ef7c9a.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Inventory/Cross-Pressed.svg"
+dest_files=["res://.godot/imported/Cross-Pressed.svg-ed7fd36f07eebd2ffeb3b15e18ef7c9a.sex"]
+
+[params]
+

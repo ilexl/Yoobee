@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c76y7idrg40hy"
+path="res://.godot/imported/Left-ArrowBtn-Highlighted.svg-b1755cf0ceaa8ab99a37449fa5972b23.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Left-ArrowBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/Left-ArrowBtn-Highlighted.svg-b1755cf0ceaa8ab99a37449fa5972b23.sex"]
+
+[params]
+

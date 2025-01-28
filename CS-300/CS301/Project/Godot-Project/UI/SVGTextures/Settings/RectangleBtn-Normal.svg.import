@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cwarp3vww3wxk"
+path="res://.godot/imported/RectangleBtn-Normal.svg-7b5684036a7b3b89199cf8c6e5b14af3.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/RectangleBtn-Normal.svg"
+dest_files=["res://.godot/imported/RectangleBtn-Normal.svg-7b5684036a7b3b89199cf8c6e5b14af3.sex"]
+
+[params]
+

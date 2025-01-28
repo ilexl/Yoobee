@@ -1,0 +1,49 @@
+[gd_scene load_steps=34 format=3 uid="uid://bt33b5k48ip62"]
+
+[ext_resource type="Script" path="res://UI/UIManager.cs" id="1_ae7ch"]
+[ext_resource type="Script" path="res://UI/WindowManager.cs" id="1_st6gj"]
+[ext_resource type="Script" path="res://UI/Window.cs" id="2_5w2l0"]
+[ext_resource type="Script" path="res://UI/Pause.cs" id="4_17pyg"]
+[ext_resource type="FontFile" uid="uid://b0v3fyhp3yp2f" path="res://UI/Fonts/Kufam-VariableFont_wght.ttf" id="4_fvsai"]
+[ext_resource type="Texture2D" uid="uid://cykr4oe6uubyp" path="res://UI/Images/tempBG.png" id="4_g56cw"]
+[ext_resource type="Script" path="res://UI/SettingsMenu.cs" id="4_oc5pt"]
+[ext_resource type="Script" path="res://UI/MainMenu.cs" id="4_xc8gb"]
+[ext_resource type="Texture2D" uid="uid://7dnsnqjj7pxh" path="res://UI/UIElements/Button.svg" id="5_eegk4"]
+[ext_resource type="Script" path="res://UI/WorldManager.cs" id="5_v3f2b"]
+[ext_resource type="Texture2D" uid="uid://cmt1p5l3pp2tc" path="res://UI/UIElements/Button-Pressed.svg" id="6_bw56o"]
+[ext_resource type="Texture2D" uid="uid://cx47vnixnx8sh" path="res://UI/UIElements/SettingsBackground.svg" id="6_gx3n7"]
+[ext_resource type="Texture2D" uid="uid://dm7u03mrumy6r" path="res://UI/Images/Rectangle 3.svg" id="6_pcm66"]
+[ext_resource type="Script" path="res://UI/LoadingScreen.cs" id="6_unkds"]
+[ext_resource type="Script" path="res://UI/HUD.cs" id="7_knsfs"]
+[ext_resource type="Texture2D" uid="uid://xycer0altein" path="res://UI/UIElements/Button-Highlight.svg" id="7_vpu1a"]
+[ext_resource type="Texture2D" uid="uid://bs6y5j03uv4ia" path="res://UI/UIElements/SettingsIconHolder.svg" id="8_g5u0w"]
+[ext_resource type="Texture2D" uid="uid://dfac70vqa0amj" path="res://UI/UIElements/Button-Disabled.svg" id="8_j4xfe"]
+[ext_resource type="Texture2D" uid="uid://sh5uhanyu3e3" path="res://UI/UIElements/Button-Primary.svg" id="8_lf3yh"]
+[ext_resource type="Texture2D" uid="uid://d05p6givodlqm" path="res://UI/UIElements/SettingsIconHolderSelected.svg" id="9_nubwi"]
+[ext_resource type="Texture2D" uid="uid://bbtjl8a5pj1uo" path="res://UI/UIElements/Button-Primary-Pressed.svg" id="9_wbehq"]
+[ext_resource type="Texture2D" uid="uid://cto7segvlqt1" path="res://UI/UIElements/Button-Primary-Highlighted.svg" id="10_4g464"]
+[ext_resource type="Texture2D" uid="uid://dm8edayoimiwy" path="res://UI/UIElements/SettingsIconHolderHighlighted.svg" id="10_meldx"]
+[ext_resource type="Texture2D" uid="uid://csajhdj7xhv78" path="res://UI/UIElements/IconGameSettings.png" id="18_54gxq"]
+[ext_resource type="Texture2D" uid="uid://ccacsbwywn0ff" path="res://UI/UIElements/IconControls.png" id="18_gt1ff"]
+[ext_resource type="Texture2D" uid="uid://bb2re1ccvs366" path="res://UI/UIElements/IconAudio.png" id="20_x7oi2"]
+[ext_resource type="Texture2D" uid="uid://c54is2cerp4ni" path="res://UI/UIElements/IconVideo.png" id="21_4wk1p"]
+[ext_resource type="Texture2D" uid="uid://brf6bpw7ab6m6" path="res://UI/UIElements/IconReset.png" id="22_lxoad"]
+[ext_resource type="PackedScene" uid="uid://27r5cfuywm27" path="res://UI/UIElements/world_save.tscn" id="24_6fqay"]
+[ext_resource type="Texture2D" uid="uid://cub3bihau2yo2" path="res://UI/UIElements/WorldManagerBackground.svg" id="24_jxwvm"]
+[ext_resource type="Script" path="res://UI/PopUp.cs" id="31_85m2s"]
+[ext_resource type="PackedScene" uid="uid://b5k86ny5x2sv" path="res://UI/UIElements/error_pop_up.tscn" id="32_2yato"]
+[ext_resource type="PackedScene" uid="uid://cm8ih6dwhbcef" path="res://UI/UIElements/confirm_pop_up.tscn" id="33_76cnx"]
+
+[node name="UI" type="Control" node_paths=PackedStringArray("_mainMenu", "_settingsMenu", "_worldMenu", "_loadingMenu", "_hudMenu", "_pauseMenu", "_popup", "_windowManager")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ae7ch")
+_mainMenu = NodePath("WindowManager/MainMenu/MainMenuScript")
+_settingsMenu = NodePath("WindowManager/Settings/SettingsManager")
+_worldMenu = NodePath("WindowManager/WorldManager/WorldManagerButtons")
+_loadingMenu = NodePath("WindowManager/LoadingScreen/LoadingScreenLogic")
+_hudMe

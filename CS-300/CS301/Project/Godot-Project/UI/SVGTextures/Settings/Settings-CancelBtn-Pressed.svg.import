@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cbsjd48f1pi5o"
+path="res://.godot/imported/Settings-CancelBtn-Pressed.svg-4278238ac178086da8fe581c42aa4845.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-CancelBtn-Pressed.svg"
+dest_files=["res://.godot/imported/Settings-CancelBtn-Pressed.svg-4278238ac178086da8fe581c42aa4845.sex"]
+
+[params]
+

@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://8g4nt5hmqlbb"]
+
+[ext_resource type="Script" path="res://UI/SVGTextures/DraggableWindow.cs" id="1_s5k6r"]
+[ext_resource type="Script" path="res://UI/InventoryWindow.cs" id="2_sc1gq"]
+[ext_resource type="PackedScene" uid="uid://cfgvwvao1sd0i" path="res://UI/SVGTextures/Inventory/inventory_slot.tscn" id="3_fjhw1"]
+
+[node name="Node" type="Control" node_paths=PackedStringArray("_window", "_containerVertical")]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("2_sc1gq")
+_inventorySlotScene = ExtResource("3_fjhw1")
+_window = NodePath("Window")
+_containerVertical = NodePath("Window/Control/VBoxContainer")
+
+[node name="Window" type="Window" parent="."]
+canvas_cull_mask = 4294967293
+initial_position = 2
+size = Vector2i(508, 100)
+script = ExtResource("1_s5k6r")
+
+[node name="Control" type="ScrollContainer" parent="Window"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Window/Control"]
+layout_mode = 2
+theme_override_constants/separation = -2

@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://5p8rlhfjy0hb"
+path="res://.godot/imported/Gear-icon.svg-62adc6eff1486cc7a43b6b2822496297.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Gear-icon.svg"
+dest_files=["res://.godot/imported/Gear-icon.svg-62adc6eff1486cc7a43b6b2822496297.sex"]
+
+[params]
+

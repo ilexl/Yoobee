@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bmbdsdt2m8sjp"
+path="res://.godot/imported/Trash-Highlighted.svg-68e29513e1a7bea2f4a57138cc01bc90.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/Trash-Highlighted.svg"
+dest_files=["res://.godot/imported/Trash-Highlighted.svg-68e29513e1a7bea2f4a57138cc01bc90.sex"]
+
+[params]
+

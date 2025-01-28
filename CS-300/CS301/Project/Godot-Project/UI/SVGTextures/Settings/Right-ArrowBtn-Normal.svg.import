@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bjvlk2n3xp8u6"
+path="res://.godot/imported/Right-ArrowBtn-Normal.svg-125bf057b4f6dbd5c30a82f1adaa31aa.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Right-ArrowBtn-Normal.svg"
+dest_files=["res://.godot/imported/Right-ArrowBtn-Normal.svg-125bf057b4f6dbd5c30a82f1adaa31aa.sex"]
+
+[params]
+

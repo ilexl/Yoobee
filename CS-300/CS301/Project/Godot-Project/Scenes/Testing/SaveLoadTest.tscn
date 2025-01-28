@@ -1,0 +1,42 @@
+[gd_scene load_steps=3 format=3 uid="uid://deosl6ua741e8"]
+
+[ext_resource type="Script" path="res://Testing/SaveLoadTest/SaveLoadTest.cs" id="1_uasqv"]
+[ext_resource type="Script" path="res://WorldData/Data.cs" id="2_4qdwu"]
+
+[node name="SaveLoadTest" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uasqv")
+test = "saveloadteststring123"
+test2 = Vector3(4, 5, 6)
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 183.0
+offset_top = 203.0
+offset_right = 305.0
+offset_bottom = 285.0
+text = "Save"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 723.0
+offset_top = 204.0
+offset_right = 845.0
+offset_bottom = 286.0
+text = "Load"
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 347.0
+offset_top = 408.0
+offset_right = 778.0
+offset_bottom = 591.0
+placeholder_text = "Enter text here"
+
+[node name="TestData" type="Node" parent="."]
+script = ExtResource("2_4qdwu")

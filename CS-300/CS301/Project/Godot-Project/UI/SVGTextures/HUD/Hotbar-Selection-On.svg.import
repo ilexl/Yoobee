@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://bro45xgfu2y24"
+path="res://.godot/imported/Hotbar-Selection-On.svg-c3f6641639f21587e164380b2f8c0839.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/HUD/Hotbar-Selection-On.svg"
+dest_files=["res://.godot/imported/Hotbar-Selection-On.svg-c3f6641639f21587e164380b2f8c0839.sex"]
+
+[params]
+

@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://b2uus7avw372u"
+path="res://.godot/imported/Settings-IconHolderHighlighted.svg-4cf4e4affc63faf426605314dee0fbb6.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Settings-IconHolderHighlighted.svg"
+dest_files=["res://.godot/imported/Settings-IconHolderHighlighted.svg-4cf4e4affc63faf426605314dee0fbb6.sex"]
+
+[params]
+

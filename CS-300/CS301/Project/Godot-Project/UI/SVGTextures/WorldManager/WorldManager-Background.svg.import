@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://c2b06fva4e1lv"
+path="res://.godot/imported/WorldManager-Background.svg-f0e7a89ec305380560bdb9575fda4d01.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldManager-Background.svg"
+dest_files=["res://.godot/imported/WorldManager-Background.svg-f0e7a89ec305380560bdb9575fda4d01.sex"]
+
+[params]
+

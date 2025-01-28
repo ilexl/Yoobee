@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cunkecgxso8m0"
+path="res://.godot/imported/SaveBtn-Highlighted.svg-c1f663e17d12911b360d72133d0092d7.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/SaveBtn-Highlighted.svg"
+dest_files=["res://.godot/imported/SaveBtn-Highlighted.svg-c1f663e17d12911b360d72133d0092d7.sex"]
+
+[params]
+

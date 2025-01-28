@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://dviltc0a1uxoj"
+path="res://.godot/imported/WorldRectangle-Selected.svg-ca5db02bac9b788a692f24592e3c7594.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldRectangle-Selected.svg"
+dest_files=["res://.godot/imported/WorldRectangle-Selected.svg-ca5db02bac9b788a692f24592e3c7594.sex"]
+
+[params]
+

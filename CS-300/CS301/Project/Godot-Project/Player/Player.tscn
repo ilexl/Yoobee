@@ -1,0 +1,54 @@
+[gd_scene load_steps=8 format=3 uid="uid://xjqrmh8r7gfp"]
+
+[ext_resource type="Script" path="res://Player/PlayerController.cs" id="1_mue7o"]
+[ext_resource type="PackedScene" uid="uid://bds1pv8qbk2ms" path="res://Player/PlayerHead.tscn" id="2_ti0ub"]
+[ext_resource type="Script" path="res://Player/ComponentCreation/ComponentCreator.cs" id="3_btxcd"]
+[ext_resource type="Script" path="res://Player/HotBar/HotBarManager.cs" id="4_rodfu"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_10an4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_r8y4y"]
+height = 3.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_vamg0"]
+
+[node name="PlayerRoot" type="Node"]
+script = ExtResource("1_mue7o")
+_useDistance = Vector3(0, 0, 5)
+
+[node name="Body" type="RigidBody3D" parent="."]
+mass = 100.0
+
+[node name="Mesh" type="MeshInstance3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00729418, -0.0148787, 0.00641991)
+mesh = SubResource("CapsuleMesh_10an4")
+
+[node name="Collider" type="CollisionShape3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("CapsuleShape3D_r8y4y")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Body"]
+transform = Transform3D(0.453893, 0, 0, 0, 0.0130125, 1.07663, 0, -0.421086, 0.0332703, 0, 0, 0.598544)
+mesh = SubResource("BoxMesh_vamg0")
+
+[node name="HeadPosition" type="Node3D" parent="Body"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="FmodListener3D" type="FmodListener3D" parent="Body"]
+
+[node name="Head" parent="." instance=ExtResource("2_ti0ub")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+
+[node name="ComponentCreator" type="Node" parent="." node_paths=PackedStringArray("_head", "_body")]
+script = ExtResource("3_btxcd")
+_placementRotationSensitivity = 2.0
+_maxTruncationThreshold = 8.0
+_minTruncationThreshold = 0.5
+_maxTruncationColor = Color(0.614057, 0.102782, 1, 1)
+_minTruncationColor = Color(0.00909067, 0.172699, 0.356308, 1)
+_noTruncationColor = Color(0.681615, 0.788438, 0.97352, 1)
+_head = NodePath("../Head")
+_body = NodePath("../Body")
+
+[node name="HotbarManager" type="Node" parent="."]
+script = ExtResource("4_rodfu")

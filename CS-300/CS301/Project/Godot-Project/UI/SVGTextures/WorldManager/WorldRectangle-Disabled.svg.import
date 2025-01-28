@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://j2a6ynf6onh2"
+path="res://.godot/imported/WorldRectangle-Disabled.svg-b720a91fe006fd24bd75f0b85560fa10.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/WorldManager/WorldRectangle-Disabled.svg"
+dest_files=["res://.godot/imported/WorldRectangle-Disabled.svg-b720a91fe006fd24bd75f0b85560fa10.sex"]
+
+[params]
+

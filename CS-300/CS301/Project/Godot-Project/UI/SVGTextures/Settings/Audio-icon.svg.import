@@ -1,0 +1,14 @@
+[remap]
+
+importer="merovi.svgtexture2d"
+type="SVGTexture2D"
+uid="uid://cnr2ffkm4pwyx"
+path="res://.godot/imported/Audio-icon.svg-668feb3650e7b16716322029ac09894c.sex"
+
+[deps]
+
+source_file="res://UI/SVGTextures/Settings/Audio-icon.svg"
+dest_files=["res://.godot/imported/Audio-icon.svg-668feb3650e7b16716322029ac09894c.sex"]
+
+[params]
+
